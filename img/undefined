@@ -1,0 +1,4237 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta property="og:title" content="">
+    <meta property="og:type" content="">
+    <meta property="og:url" content="">
+    <meta property="og:image" content="">
+
+    <link rel="manifest" href="site.webmanifest">
+    <!--  <link rel="apple-touch-icon" href="icon.png">-->
+    <!-- Place favicon.ico in the root directory -->
+
+    <link rel="stylesheet" href="css/normalize.css">
+
+    <link rel="stylesheet" href="css/main.css">
+     <link rel="stylesheet" href="css/front-pagee.css">
+    <link rel="stylesheet" href="css/vslpagee.css">
+    <link rel="stylesheet" href="css/ilustration3d.css">
+     <link rel="stylesheet" href="css/estrutura.css">
+
+    <link rel="stylesheet" href="css/animations.css">
+    <!--      <link rel="stylesheet" href="css/tree.css">-->
+    <meta name="theme-color" content="#000000">
+
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@200..700,0..1"
+        rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;900&display=swap" rel="stylesheet">
+    
+
+<link href="https://fonts.googleapis.com/css?family=Roboto:100,400,700|Open+Sans:200,400,700|Lato:200,400,700|Oswald:200,400,700|Montserrat:200,400,700|Source+Sans+Pro:200,400,700|Noto+Sans:200,400,700|Hahmlet:200,400,700|Roboto+Slab:200,400,700|Merriweather:200,400,700|Lora:200,400,700|PT+Serif:200,400,700|Sansita+One:200,400,700|Bebas+Neue:200,400,700|Lobster:200,400,700|Comfortaa:200,400,700|Abril+Fatface:200,400,700|Alfa+Slab+One:200,400,700|Courgette:200,400,700|Fredoka+One:200,400,700|Fugaz+One:200,400,700|Oleo+Script:200,400,700|Indie+Flower|Amatic+SC|Pacifico|Source+Code+Pro:200,400,700|JetBrains+Mono:200,400,700" rel="stylesheet">
+    
+    
+    <link rel="stylesheet" type="text/css"
+        href="https://cdn.jsdelivr.net/npm/spectrum-colorpicker2/dist/spectrum.min.css">
+    <!--    <link rel="stylesheet" href="/fonts/icofont.css">-->
+    <!--   <script src="js/vendor/modernizr-3.11.2.min.js"></script>-->
+
+
+    <link rel="preload" as="image" href="https://assets.codepen.io/22628/unicorn.png">
+</head>
+
+<body class="page-edite pagee-plataforma ">
+    
+    
+
+
+    <!--    <a id="page-mkt" target="_blank"></a>-->
+    <div id="menu-float">
+<div  class="menu-float-close this-menu-close"><span  class="material-symbols-outlined">
+                close
+            </span></div>
+        <span class="shortcuts-open this-menu-close">Shortcuts</span>
+         <span class="interface-scale"><span>Interface scale</span><input value="100" type="text" max="180" min="50" step="0.1" class="numberonly"></span>
+         
+
+        <a href="" class="this-menu-close">About</a>
+
+    </div>
+
+    <div id="shortcuts" class="dragme">
+        <div class="shortcuts-close "><span class="material-symbols-outlined">
+                close
+            </span></div>
+
+
+        <div class="dragme-dot"></div>
+
+        <div class="shortcuts-container-item">
+            <div class="shortcuts-item">site window zoom in<div class="shortcuts-item-sub">
+                    <div class="shortcuts-key" ><span class="useros-apple">⌘</span><span class="useros-notapple">CTRL</span></div> + <div class="shortcuts-key">+</div>
+                </div>
+            </div>
+            <div class="shortcuts-item">site window zoom out<div class="shortcuts-item-sub">
+                    <div class="shortcuts-key"><span class="useros-apple">⌘</span><span class="useros-notapple">CTRL</span></div> + <div class="shortcuts-key">-</div>
+                </div>
+            </div>
+            <div class="shortcuts-item">Texte<div class="shortcuts-item-sub">
+                    <div class="shortcuts-key">⬆</div> + <div class="shortcuts-key">z</div>
+                </div>
+            </div>
+            <div class="shortcuts-item">Texte<div class="shortcuts-item-sub">
+                    <div class="shortcuts-key">CTR</div> + <div class="shortcuts-key">z</div>
+                </div>
+            </div>
+            <div class="shortcuts-item">Texte<div class="shortcuts-item-sub">
+                    <div class="shortcuts-key">CTR</div> + <div class="shortcuts-key">z</div>
+                </div>
+            </div>
+            <div class="shortcuts-item">Texte<div class="shortcuts-item-sub">
+                    <div class="shortcuts-key">CTR</div> + <div class="shortcuts-key">z</div>
+                </div>
+            </div>
+            <div class="shortcuts-item">Texte<div class="shortcuts-item-sub">
+                    <div class="shortcuts-key">CTR</div> + <div class="shortcuts-key">z</div>
+                </div>
+            </div>
+            <div class="shortcuts-item">Texte<div class="shortcuts-item-sub">
+                    <div class="shortcuts-key">CTR</div> + <div class="shortcuts-key">z</div>
+                </div>
+            </div>
+            <div class="shortcuts-item">Texte<div class="shortcuts-item-sub">
+                    <div class="shortcuts-key">CTR</div> + <div class="shortcuts-key">z</div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+    <div class="page-treeview">
+        <div id="page-treeview-content">
+
+
+        </div>
+    </div>
+
+
+
+
+<div id="site-window-data"> 
+               
+               <div><span class="material-symbols-outlined">width</span>
+             <div class="sww swdata" data-name='Window width: ' data-uni='px'>1800px</div> 
+              </div>
+              
+               <div><span class="material-symbols-outlined">height</span>
+               <div  class="swh swdata" data-name='Window height: ' data-uni='px'>800px</div>
+               </div> 
+    
+    <div><span class="material-symbols-outlined">zoom_in </span>
+    <div class="swz swdata" data-name='Browser zoom: ' data-uni='%'>80%</div>
+    </div>
+    
+    <div><span class="material-symbols-outlined">apps </span>
+    <div class="datamenuscale swdata" data-name='interface scale: ' data-uni='%'></div></div>
+    </div>
+    
+    <div class="new-page"></div>
+    <div class="head-code"></div>
+
+    <div class="import"></div>
+
+    <div class="page-top page-menu">
+        <div class="top-logo-name">
+            <div class="logo" id="pagee-logoo"></div>Pagee
+        </div>
+
+        <div id="projectpagename">
+
+            <div id="projeto-name">Nome do Projeto</div>
+            <span> » </span>
+            <div id="page-name">Meu Projeto Meu Projeto</div>
+        </div>
+
+
+    </div>
+
+
+    <div class="page-top-menu-right page-menu">
+        <div id="preview" class="elem"><span class="material-symbols-outlined">
+                preview
+            </span></div>
+        <div id="mobile" class="elem "><span class="material-symbols-outlined">
+                devices
+            </span></div>
+    </div>
+
+
+
+
+
+    <div class="page-left page-menu">
+        <div class="page-left-menu-top">
+            <div id='elements' data-menu='#elements-menu' class="elem  btn" value='1'>
+                <label for="">add elem</label>
+                <span class="material-symbols-outlined icon">
+                    add_circle
+                </span>
+            </div>
+            <div id='edit' class="elem btn" data-menu='#edit-menu'>
+                <label for="">Edit</label>
+                <span class="material-symbols-outlined icon">
+                    design_services
+                </span>
+            </div>
+
+            <div id='code' class="elem btn" data-menu='#config-menu'>
+                <label for="">Page</label>
+                <span class="material-symbols-outlined icon">
+                    settings
+                </span>
+            </div>
+
+
+        </div>
+
+        <div class="page-left-menu-bottom">
+
+
+
+            <div id="project-pages-btn" class="elem btn-fixed pagee-version "><label for="">Pages</label><span
+                    class="material-symbols-outlined">
+                    file_copy
+                </span></div>
+
+
+
+            <div id='image-folder-btn' class="elem btn">
+                <label for="">Images</label>
+                <span class="material-symbols-outlined icon">
+                    perm_media
+                </span>
+            </div>
+
+
+            <div class="side-open-menu">
+                <div id="savepageonfolder" class="elem btn-fixed pagee-version "><label for="">Save</label><span
+                        class="material-symbols-outlined">
+                        save
+                    </span></div>
+
+                <div class="side-open-menu-sub">
+                    <div id="savecloud" class="elem btn-fixed pagee-version "><label for="">Auto save</label><span
+                            class="material-symbols-outlined">
+                            update
+                        </span></div>
+
+                </div>
+
+
+            </div>
+
+
+
+            
+<!--
+            
+             <div class="side-open-menu">
+              <div id="savecloud" class="elem btn-fixed pagee-version "><label for="">Open page</label><span class="material-symbols-outlined">
+                  upload_file
+                </span></div>  
+                
+                <div class="side-open-menu-sub">
+                   
+                   <div id="templates-library-btn" class="elem btn"><label for="">New page</label><span class="material-symbols-outlined">
+                   note_add
+                </span></div>
+                
+                <div id="savecloud" class="elem btn-fixed pagee-version "><label for="">Delete page</label><span class="material-symbols-outlined">
+                    scan_delete
+                </span></div>
+                 </div>
+                
+               
+           </div> 
+-->
+            
+
+
+<!--
+
+            
+            <div id="savecloud" class="elem btn-fixed pagee-version "><label for="">Save</label><span class="material-symbols-outlined">
+                    save
+                </span></div>
+-->
+
+
+
+            <!--
+            <div id="templates-library-btn" class="elem btn"><label for="">Templates</label><span class="material-symbols-outlined">
+                    backup_table
+                </span></div>
+-->
+
+
+
+
+
+
+
+            <!--
+  <div id="savecloud" class="elem btn-fixed pagee-version "><label for="">img comp</label><span class="material-symbols-outlined">
+                   photo_size_select_small
+                </span></div>  
+-->
+
+            <div id="exit-btn" class="elem btn-fixed pagee-version "><label for="">Exit</label><span
+                    class="material-symbols-outlined">
+                    right_panel_open
+                </span></div>
+
+
+
+
+<!--
+            <div id="loadpage" class="elem btn-fixed"><label for="">Upload</label><span
+                    class="material-symbols-outlined">
+                    file_upload
+                </span></div>
+-->
+<!--
+            <div id="savepage" class="elem btn-fixed"><label for="">Download</label><span
+                    class="material-symbols-outlined">
+                    download
+                </span></div>
+-->
+
+
+
+
+
+        </div>
+    </div>
+
+    <div class="page-tools">
+
+        <div id="elements-menu" class="menus  act">
+
+
+            <!--
+            <div class="group-elem-fixed">
+                <h2>Elements Menu</h2>
+
+            </div>
+-->
+
+            <div class="group-elem">
+                <h3>SECTION</h3>
+
+                <div class="elem elem-25 i-section  btn-fixed" data-drop-area='main' data-new-element='s1'>
+                    <label for="" helper-call='helper-section1'>Section</label>
+                    <span class="material-symbols-outlined " style="font-size: calc(34px * var(--interface-size)) !important;">
+                        select_all
+                    </span>
+
+
+                </div>
+
+
+                <!--
+<div class="elem elem-50g i-section btn-fixed" data-new-element='s2'>
+		<label for="">Center vertical</label>
+			<img src="/img/section2.png" alt="">
+		</div>
+-->
+                <div id="headerelem" class="elem elem-25 i-header-footer btn-fixed" data-new-element='header1'
+                    data-drop-area='body'>
+                    <label for="">Header</label>
+                    <svg class='svg-icon' version="1.1" xmlns="http://www.w3.org/2000/svg"
+                        xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1000 1000"
+                        enable-background="new 0 0 1000 1000" xml:space="preserve">
+
+                        <g>
+                            <g transform="translate(0.000000,511.000000) scale(0.100000,-0.100000)">
+                                <path
+                                    d="M118,4995.1c-9-6.7-15.7-653.8-15.7-1437.9V2135.1H5000h4897.8l-4.5,1433.4l-6.8,1431.1l-4877.5,6.7C2326.5,5008.6,124.7,5004.1,118,4995.1z M9313.6,3561.7v-865H5000H686.4v865v865H5000h4313.6V3561.7z" />
+                                <path d="M1540.1,3561.7v-280.8h584.1h584.1v280.8v280.8h-584.1h-584.1V3561.7z" />
+                                <path d="M3854.2,3561.7v-280.8H6157h2302.8v280.8v280.8H6157H3854.2V3561.7z" />
+                                <path
+                                    d="M106.7,1265.6l6.7-287.6l287.6-6.7l285.3-6.7v294.3V1551H394.3H100L106.7,1265.6z" />
+                                <path
+                                    d="M9313.6,1258.9V964.6l287.6,6.7l285.3,6.7l6.8,287.6l6.7,285.3h-294.3h-292.1V1258.9z" />
+                                <path
+                                    d="M111.2,375.9c-4.5-15.7-6.7-146-4.5-287.6l6.7-256.1l287.6-6.7l285.3-6.8v294.3v292.1H405.6C194.4,405.2,120.2,398.4,111.2,375.9z" />
+                                <path
+                                    d="M9313.6,113.1v-294.3l287.6,6.8l285.3,6.7v280.8v280.8l-285.3,6.7l-287.6,6.7V113.1z" />
+                                <path
+                                    d="M118-756.4c-9-6.7-15.7-139.3-15.7-292.1v-276.3h292.1h292.1v292.1v292.1H410C257.3-740.7,124.7-747.4,118-756.4z" />
+                                <path
+                                    d="M9313.6-1032.7v-292.1h292.1H9900l-6.7,287.6l-6.8,285.3l-285.3,6.7l-287.6,6.7V-1032.7z" />
+                                <path d="M102.3-2189.8v-280.8h292.1h292.1v280.8v280.8H394.3H102.3V-2189.8z" />
+                                <path d="M9313.6-2189.8v-280.8h292.1h292.1v280.8v280.8h-292.1h-292.1V-2189.8z" />
+                                <path d="M102.3-3335.6v-280.8h292.1h292.1v280.8v280.8H394.3H102.3V-3335.6z" />
+                                <path d="M9313.6-3335.6v-280.8h292.1h292.1v280.8v280.8h-292.1h-292.1V-3335.6z" />
+                                <path
+                                    d="M106.7-4485.9l6.7-287.6l287.6-6.7l285.3-6.7v294.3v292.1H394.3H100L106.7-4485.9z" />
+                                <path d="M1270.5-4492.6v-292.1h280.8h280.8v292.1v292.1h-280.8h-280.8V-4492.6z" />
+                                <path d="M2416.3-4492.6v-292.1h280.8H2978v292.1v292.1h-280.8h-280.8V-4492.6z" />
+                                <path
+                                    d="M3562.1-4492.6v-294.3l287.6,6.7l285.3,6.7l6.7,287.6l6.7,285.3h-294.3h-292.1V-4492.6z" />
+                                <path
+                                    d="M4712.4-4485.9l6.7-287.6H5000h280.8l6.8,287.6l6.7,285.3H5000h-294.3L4712.4-4485.9z" />
+                                <path
+                                    d="M5858.3-4485.9l6.7-287.6l287.6-6.7l285.3-6.7v294.3v292.1h-292.1h-294.3L5858.3-4485.9z" />
+                                <path d="M7022-4492.6v-292.1h280.8h280.8v292.1v292.1h-280.8H7022V-4492.6z" />
+                                <path d="M8167.8-4492.6v-292.1h280.8h280.8v292.1v292.1h-280.8h-280.8V-4492.6z" />
+                                <path
+                                    d="M9313.6-4492.6v-294.3l287.6,6.7l285.3,6.7l6.8,287.6l6.7,285.3h-294.3h-292.1V-4492.6z" />
+                            </g>
+                        </g>
+                    </svg>
+                </div>
+                <div id="footerelem" class="elem elem-25 i-header-footer btn-fixed" data-new-element='footer1'
+                    data-drop-area='body'>
+                    <label for="">Footer</label>
+                    <svg class='svg-icon' version="1.1" xmlns="http://www.w3.org/2000/svg"
+                        xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1000 1000"
+                        enable-background="new 0 0 1000 1000" xml:space="preserve" style='transform: rotate(180deg)'>
+
+                        <g>
+                            <g transform="translate(0.000000,511.000000) scale(0.100000,-0.100000)">
+                                <path
+                                    d="M118,4995.1c-9-6.7-15.7-653.8-15.7-1437.9V2135.1H5000h4897.8l-4.5,1433.4l-6.8,1431.1l-4877.5,6.7C2326.5,5008.6,124.7,5004.1,118,4995.1z M9313.6,3561.7v-865H5000H686.4v865v865H5000h4313.6V3561.7z" />
+                                <path d="M1540.1,3561.7v-280.8h584.1h584.1v280.8v280.8h-584.1h-584.1V3561.7z" />
+                                <path d="M3854.2,3561.7v-280.8H6157h2302.8v280.8v280.8H6157H3854.2V3561.7z" />
+                                <path
+                                    d="M106.7,1265.6l6.7-287.6l287.6-6.7l285.3-6.7v294.3V1551H394.3H100L106.7,1265.6z" />
+                                <path
+                                    d="M9313.6,1258.9V964.6l287.6,6.7l285.3,6.7l6.8,287.6l6.7,285.3h-294.3h-292.1V1258.9z" />
+                                <path
+                                    d="M111.2,375.9c-4.5-15.7-6.7-146-4.5-287.6l6.7-256.1l287.6-6.7l285.3-6.8v294.3v292.1H405.6C194.4,405.2,120.2,398.4,111.2,375.9z" />
+                                <path
+                                    d="M9313.6,113.1v-294.3l287.6,6.8l285.3,6.7v280.8v280.8l-285.3,6.7l-287.6,6.7V113.1z" />
+                                <path
+                                    d="M118-756.4c-9-6.7-15.7-139.3-15.7-292.1v-276.3h292.1h292.1v292.1v292.1H410C257.3-740.7,124.7-747.4,118-756.4z" />
+                                <path
+                                    d="M9313.6-1032.7v-292.1h292.1H9900l-6.7,287.6l-6.8,285.3l-285.3,6.7l-287.6,6.7V-1032.7z" />
+                                <path d="M102.3-2189.8v-280.8h292.1h292.1v280.8v280.8H394.3H102.3V-2189.8z" />
+                                <path d="M9313.6-2189.8v-280.8h292.1h292.1v280.8v280.8h-292.1h-292.1V-2189.8z" />
+                                <path d="M102.3-3335.6v-280.8h292.1h292.1v280.8v280.8H394.3H102.3V-3335.6z" />
+                                <path d="M9313.6-3335.6v-280.8h292.1h292.1v280.8v280.8h-292.1h-292.1V-3335.6z" />
+                                <path
+                                    d="M106.7-4485.9l6.7-287.6l287.6-6.7l285.3-6.7v294.3v292.1H394.3H100L106.7-4485.9z" />
+                                <path d="M1270.5-4492.6v-292.1h280.8h280.8v292.1v292.1h-280.8h-280.8V-4492.6z" />
+                                <path d="M2416.3-4492.6v-292.1h280.8H2978v292.1v292.1h-280.8h-280.8V-4492.6z" />
+                                <path
+                                    d="M3562.1-4492.6v-294.3l287.6,6.7l285.3,6.7l6.7,287.6l6.7,285.3h-294.3h-292.1V-4492.6z" />
+                                <path
+                                    d="M4712.4-4485.9l6.7-287.6H5000h280.8l6.8,287.6l6.7,285.3H5000h-294.3L4712.4-4485.9z" />
+                                <path
+                                    d="M5858.3-4485.9l6.7-287.6l287.6-6.7l285.3-6.7v294.3v292.1h-292.1h-294.3L5858.3-4485.9z" />
+                                <path d="M7022-4492.6v-292.1h280.8h280.8v292.1v292.1h-280.8H7022V-4492.6z" />
+                                <path d="M8167.8-4492.6v-292.1h280.8h280.8v292.1v292.1h-280.8h-280.8V-4492.6z" />
+                                <path
+                                    d="M9313.6-4492.6v-294.3l287.6,6.7l285.3,6.7l6.8,287.6l6.7,285.3h-294.3h-292.1V-4492.6z" />
+                            </g>
+                        </g>
+                    </svg>
+                </div>
+
+            </div>
+
+
+
+
+            <div class="group-elem">
+                <h3>BLOCOS</h3>
+
+                <!--
+	<div class="elem elem-50g i-block" data-new-element='b1'>
+		<label for="">Único</label>
+		<img src="/img/bloco1.png" alt="">
+		</div>
+-->
+                <div class="elem elem-25 i-block  btn-fixed" data-new-element='bloco0' data-drop-area='content_area'>
+                    <label for="">Single block</label>
+                    <span class="material-symbols-outlined">
+                        crop_square
+                    </span>
+
+
+                </div>
+
+             
+
+                <div class="elem elem-25 i-block  btn-fixed" data-new-element='bloco50' data-drop-area='content_area'>
+                    <label for="">multiple</label>
+                <svg class='svg-icon' width="100%" height="100%" viewBox="0 0 48 48" version="1.1"
+                        xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xml:space="preserve" xmlns:serif="http://www.serif.com/"
+                        style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+                        <path
+                            d="M5,38L6,39.028L42.151,39L43,38L43,10L42.151,9L6,8.972L5,10L5,38ZM7,40C6.2,40 5.5,39.7 4.9,39.1C4.3,38.5 4,37.8 4,37L4,11C4,10.2 4.3,9.5 4.9,8.9C5.5,8.3 6.2,8 7,8L41,8C41.8,8 42.5,8.3 43.1,8.9C43.7,9.5 44,10.2 44,11L44,37C44,37.8 43.7,38.5 43.1,39.1C42.5,39.7 41.8,40 41,40L7,40Z"
+                            style="fill-rule:nonzero;" />
+                        <g transform="matrix(0.25,0,0,1.15385,18,-3.69231)">
+                            <rect x="22" y="11" width="4" height="26" />
+                        </g>
+                    </svg>
+                </div>
+                
+                  
+                  
+                   <div class="elem elem-25 i-block  btn-fixed" data-new-element='blocktab' data-drop-area='content_area'>
+                    <label for="">block tab</label>
+                    <span class="material-symbols-outlined">
+devices_fold
+</span>
+
+
+
+                </div>
+
+                <div class="elem elem-25 i-block  btn-fixed" data-new-element='block-float' data-drop-area='content_area'>
+                    <label for="">Block float</label>
+                  <span class="material-symbols-outlined">
+move_selection_down
+</span>
+
+                </div>
+
+
+
+
+            </div>
+
+
+
+
+
+            <div class="group-elem">
+                <h3>ELEMENTOS</h3>
+
+                <div class="elem elem-25  i-elem  btn-fixed" data-new-element='t' data-drop-area='content_area'>
+                    <label for="">Title</label>
+                    <svg class='svg-icon' width="100%" height="100%" viewBox="0 0 48 48" version="1.1"
+                        xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xml:space="preserve" xmlns:serif="http://www.serif.com/"
+                        style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+                        <g transform="matrix(0.235492,0,0,0.268754,1.76582,1.82811)">
+                            <path
+                                d="M100.96,31.824L100.96,137.504L127.2,137.504C129.607,137.504 131.332,137.908 132.375,138.717C133.419,139.525 133.94,140.598 133.94,141.934C133.94,143.199 133.419,144.254 132.375,145.098C131.332,145.941 129.607,146.363 127.2,146.363L64.489,146.363C62.082,146.363 60.357,145.941 59.313,145.098C58.27,144.254 57.749,143.199 57.749,141.934C57.749,140.598 58.27,139.525 59.313,138.717C60.357,137.908 62.082,137.504 64.489,137.504L90.729,137.504L90.729,31.824L49.323,31.824L49.323,62.516C49.323,64.695 48.862,66.242 47.939,67.156C47.016,68.07 45.792,68.527 44.268,68.527C42.823,68.527 41.62,68.07 40.657,67.156C39.694,66.242 39.212,64.695 39.212,62.516L39.212,22.965L152.476,22.965L152.476,62.516C152.476,64.695 152.015,66.242 151.092,67.156C150.169,68.07 148.946,68.527 147.421,68.527C145.897,68.527 144.673,68.07 143.75,67.156C142.827,66.242 142.366,64.695 142.366,62.516L142.366,31.824L100.96,31.824Z"
+                                style="fill-rule:nonzero;" />
+                        </g>
+                    </svg>
+                </div>
+
+                <div class="elem elem-25  i-elem btn-fixed" data-new-element='p' data-drop-area='content_area'>
+                    <label for="">Paragraph</label>
+                    <svg class='svg-icon' width="100%" height="100%" viewBox="0 0 48 48" version="1.1"
+                        xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xml:space="preserve" xmlns:serif="http://www.serif.com/"
+                        style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+                        <g transform="matrix(0.232255,0,0,0.26506,0.890386,2.28916)">
+                            <path
+                                d="M73.998,95.738L73.998,137.504L108.663,137.504C111.071,137.504 112.796,137.908 113.839,138.717C114.882,139.525 115.404,140.598 115.404,141.934C115.404,143.199 114.882,144.254 113.839,145.098C112.796,145.941 111.071,146.363 108.663,146.363L50.286,146.363C47.879,146.363 46.153,145.941 45.11,145.098C44.067,144.254 43.545,143.199 43.545,141.934C43.545,140.598 44.067,139.525 45.11,138.717C46.153,137.908 47.879,137.504 50.286,137.504L63.887,137.504L63.887,31.824L50.286,31.824C47.879,31.824 46.153,31.42 45.11,30.611C44.067,29.803 43.545,28.73 43.545,27.395C43.545,26.059 44.067,24.986 45.11,24.178C46.153,23.369 47.879,22.965 50.286,22.965L109.024,22.965C122.907,22.965 134.241,26.551 143.028,33.723C151.814,40.895 156.208,49.297 156.208,58.93C156.208,64.625 154.784,69.758 151.935,74.328C149.086,78.898 145.656,82.484 141.644,85.086C135.625,89.023 129.406,91.906 122.987,93.734C118.333,95.07 112.555,95.738 105.654,95.738L73.998,95.738ZM73.998,86.879L106.256,86.879C113.719,86.879 120.72,85.42 127.26,82.502C133.8,79.584 138.574,76.016 141.583,71.797C144.593,67.578 146.097,63.289 146.097,58.93C146.097,51.969 142.687,45.711 135.866,40.156C129.045,34.602 120.419,31.824 109.987,31.824L73.998,31.824L73.998,86.879Z"
+                                style="fill-rule:nonzero;" />
+                        </g>
+                    </svg>
+                </div>
+                <div class="elem elem-25 i-elem  btn-fixed" data-new-element='list' data-drop-area='content_area'>
+                    <label for="">List</label>
+                    <span class="material-symbols-outlined ">
+                        format_list_bulleted
+                    </span>
+                </div>
+                <div class="elem elem-25  i-elem btn-fixed" data-new-element='img' data-drop-area='content_area'>
+                    <label for="">Image</label>
+                    <span class="material-symbols-outlined">
+                        imagesmode
+                    </span>
+                </div>
+
+
+                <div class="elem elem-25  i-elem  btn-fixed" data-new-element='icon' data-drop-area='content_area'>
+                    <label for="">Icon</label>
+                    <span class="material-symbols-outlined">
+                        diamond
+                    </span>
+                </div>
+
+                <div class="elem elem-25  i-elem  btn-fixed" data-new-element='ilustration'
+                    data-drop-area='content_area'>
+                    <label for="">Ilustration</label>
+                    <span class="material-symbols-outlined">
+                        nature_people
+                    </span>
+                </div>
+
+
+
+
+                <div class="elem elem-25 i-elem btn-fixed" data-new-element='video' data-drop-area='content_area'>
+                    <label for="">Vídeo</label>
+                    <span class="material-symbols-outlined">
+                        smart_display
+                    </span>
+                </div>
+
+                <div class="elem elem-25   i-elem  btn-fixed" data-new-element='button' data-drop-area='content_area'>
+                    <label for="">Botão</label>
+                    <span class="material-symbols-outlined">
+                        smart_button
+                    </span>
+                </div>
+
+
+
+                <div class="elem elem-25   i-elem  btn-fixed" data-new-element='divisor' data-drop-area='content_area'>
+                    <label for="">Divisor</label>
+                    <span class="material-symbols-outlined">
+                        horizontal_rule
+                    </span>
+                </div>
+
+
+                <div class="elem elem-25   i-elem  btn-fixed" data-new-element='carousel' data-drop-area='content_area'>
+                    <label for="">Carousel</label>
+                    <span class="material-symbols-outlined">
+                        view_carousel
+                    </span>
+                </div>
+
+
+
+
+
+
+
+                <div class="elem elem-25  i-elem btn-fixed" data-new-element='acordion' data-drop-area='content_area'>
+                    <label for="">Accordion</label>
+                    <span class="material-symbols-outlined">
+                        view_day
+                    </span>
+                </div>
+
+
+
+                <div class="elem elem-25  i-elem btn-fixed" data-new-element='codearea' data-drop-area='content_area'>
+                    <label for="">HTML</label>
+                    <span class="material-symbols-outlined">
+                        developer_mode
+                    </span>
+                </div>
+
+<!--
+                <div class="elem elem-25  i-section btn-fixed" data-new-element='codeareafloat' data-drop-area='main'>
+                    <label for="">HTML float</label>
+                    <span class="material-symbols-outlined">
+                        integration_instructions
+                    </span>
+                </div>
+-->
+
+            </div>
+
+
+
+
+            <div class="group-elem">
+                <h3>Extra elements</h3>
+
+
+
+
+
+                <div class="elem elem-25  i-elem btn-fixed" data-new-element='price' data-drop-area='content_area'>
+                    <label for="">Price</label>
+                    <span class="material-symbols-outlined">
+                        finance_chip
+                    </span>
+                </div>
+
+
+
+
+                <div class="elem elem-25  i-section btn-fixed" data-new-element='contact-float' data-drop-area='main'>
+                    <label for="">float contact</label>
+                    <span class="material-symbols-outlined">
+                        contact_support
+                    </span>
+                </div>
+
+                <div class="elem elem-25  i-elem btn-fixed" data-new-element='countdown0' data-drop-area='content_area'>
+                    <label for="">Countdown</label>
+                    <span class="material-symbols-outlined">
+                        av_timer
+                    </span>
+                </div>
+
+
+<!--
+                <div class="elem elem-25  i-elem btn-fixed" data-new-element='availability'
+                    data-drop-area='content_area'>
+                    <label for="">Availability</label>
+                    <span class="material-symbols-outlined">
+                        saved_search
+                    </span>
+                </div>
+-->
+
+
+
+                <div class="elem elem-25  i-elem btn-fixed" data-new-element='dropmenu' data-drop-area='content_area'>
+                    <label for="">Menu</label>
+                    <span class="material-symbols-outlined">
+                        menu
+                    </span>
+                </div>
+
+                <div class="elem elem-25  i-section btn-fixed" data-new-element='modal' data-drop-area='main'>
+                    <label for="">modal</label>
+                    <span class="material-symbols-outlined">
+                        clarify
+                    </span>
+                </div>
+
+                <div class="elem elem-25  i-section btn-fixed" data-new-element='mockup3d'
+                    data-drop-area='content_area'>
+                    <label for="">Mockup 3d</label>
+                    <span class="material-symbols-outlined">
+                        view_in_ar
+                    </span>
+                </div>
+
+                <div class="elem elem-25  i-elem btn-fixed" data-new-element='form' data-drop-area='content_area'>
+                    <label for="">Form</label>
+                    <span class="material-symbols-outlined">
+                        fact_check
+                    </span>
+                </div>
+                
+                
+                 <div class="elem elem-25  i-elem btn-fixed" data-new-element='iframe' data-drop-area='content_area'>
+                    <label for="">Iframe</label>
+                    <span class="material-symbols-outlined">
+                        preview
+                    </span>
+                </div>
+                
+                 <div class="elem elem-25  i-elem btn-fixed" data-new-element='progbar' data-drop-area='content_area'>
+                    <label for="">Progress bar</label>
+                    <span class="material-symbols-outlined">
+                       hourglass_top
+                    </span>
+                </div>
+
+
+                <!--
+		
+			<div class="elem elem-25  i-elem btn-fixed" data-new-element='Carousel'>
+		<label for="">Email</label>
+	<span class="material-symbols-outlined">
+mail
+</span>
+		</div>
+-->
+
+            </div>
+
+
+
+
+
+
+        </div>
+
+
+
+        <!--===================================================================-->
+
+        <!--===================================================================-->
+
+        <div id="edit-menu" class="menus">
+
+            <!--
+            <div class="group-elem-fixed">
+                <h2>Edit Menu</h2>
+
+            </div>
+-->
+
+            <div id="element-tools" class="group-elem sticky-tools">
+                <div class="sticky-content">
+                    <h3>Actions</h3>
+
+                    <div id="ctl-styleToSiblings" class="elem elem-25 btn-fixed"><label for="">Style to
+                            siblings</label><span class="material-symbols-outlined">
+                            design_services
+                        </span></div>
+
+                    <div id="ctl-converttopagee" class="elem elem-25 btn-fixed"><label for="">Convert to
+                            pagee</label><span class="material-symbols-outlined">
+                            rule_settings
+                        </span></div>
+
+<!--
+                    <div id="ctl-reverse-order" class="elem elem-25 btn"><label for="">Reverse order</label><span
+                            class="material-symbols-outlined">
+                            swap_horizontal_circle
+                        </span></div>
+-->
+                    <div id='ctl-duplicate' class="elem elem-25 btn-fixed"><label for=""
+                            helper-call='helper-section1'>Duplicate</label><span class="material-symbols-outlined">
+                            control_point_duplicate
+                        </span></div>
+
+
+
+                    <div id='ctl-add-child' class="elem elem-25 btn-fixed"><label for=""
+                            helper-call='helper-section1'>Add Child</label><span class="material-symbols-outlined">
+                            dashboard_customize
+                        </span></div>
+
+
+
+
+
+                    <div id='ctl-magic-style' class="elem elem-25 btn-fixed"><label for="">Magic Style</label><span
+                            class="material-symbols-outlined">
+                            <!--                        auto_mode-->
+                            auto_fix
+                        </span></div>
+
+
+<!--
+                    <div id='ctl-float' class="elem elem-25 btn"><label for=""
+                            helper-call='helper-float'>Float</label><span class="material-symbols-outlined">
+                            web_asset
+                        </span></div>
+-->
+
+
+                    <div id='ctl-delete' class="elem elem-25 btn-fixed" ><label for="">Delete forever</label><span
+                            style='color:#ad4141' class="material-symbols-outlined">
+                            delete
+                        </span></div>
+
+                </div>
+            </div>
+
+
+
+
+
+
+            <div id="element-id" class="group-elem-fixed">
+                <h3>Element</h3>
+
+
+
+
+                <div id='ctl-lock-elem' class="elem elem-25 btn"><label for="">Lock</label><span
+                        class="material-symbols-outlined">
+                        lock
+                    </span></div>
+
+
+                <div id="ctl-element-name" class="elem elem-75"><label for="" helper-call='helper-element-name'>Element
+                        ID</label><input type="text" placeholder="no name">
+                    <span class="material-symbols-outlined icon">
+                        drive_file_rename_outline
+                    </span>
+                </div>
+
+
+
+
+
+
+
+
+
+
+                <div id="ctl-open-delay" class="elem elem-50"><label for="" helper-call='helper-open-delay'>Show
+                        delay</label><input type="time" placeholder="Open delay" step="1" value="00:00:00">
+                    <span class="material-symbols-outlined icon">
+                        timer
+                    </span>
+                </div>
+
+
+                <div id="ctl-hidden-delay" class="elem elem-50"><label for="" helper-call='helper-open-delay'>Hidden
+                        delay</label><input type="time" placeholder="Open delay" step="1" value="00:00:00">
+                    <span class="material-symbols-outlined icon">
+                        timer
+                    </span>
+                </div>
+
+                <div id='ctl-delay-cookie' class="elem elem-25 "><label for="" helper-call='helper-mobile-off'>Cookie
+                        delay days</label>
+
+                    <input type="text" placeholder="Open delay" step="1" value="0" class="numberonly">
+
+
+                    <span class="material-symbols-outlined icon">
+                        network_intelligence_history
+                    </span>
+                </div>
+
+
+
+                <div id="ctl-reveal" class="elem elem-50 elem-select "><label for="">Reveal animation</label>
+
+                    <span class="material-symbols-outlined icon">
+                        animation
+                    </span>
+                    <div class="select-list " style="text-align: center ;  letter-spacing: .005em">
+                        <span class="btn" property-val=''>No animation</span>
+
+                        <span class="btn" property-val='elem-reveal-opacity'>Reveal</span>
+                        <span class="btn" property-val='elem-reveal-left'>From left</span>
+                        <span class="btn" property-val='elem-reveal-right'>From right</span>
+                        <span class="btn" property-val='elem-reveal-top'>From top</span>
+                        <span class="btn" property-val='elem-reveal-down'>From down</span>
+                        <span class="btn" property-val='elem-reveal-zoomin'>Zoom in</span>
+                        <span class="btn" property-val='elem-reveal-zoomout'>Zoom out</span>
+                        <span class="btn" property-val='elem-reveal-rotatex'>Rotate X</span>
+                        <span class="btn" property-val='elem-reveal-rotatey'>Rotate Y</span>
+
+                        <span class="btn" property-val='elem-reveal-skewx'>skew X</span>
+                        <span class="btn" property-val='elem-reveal-open-lef'>open left</span>
+                        <span class="btn" property-val='elem-reveal-fly-top'>Fly from top</span>
+                        <span class="btn" property-val='elem-reveal-fly-down'>Fly from Bottom</span>
+
+
+
+
+
+                    </div>
+
+
+                </div>
+
+
+
+
+                <div id="ctl-show-device" class="elem elem-25 elem-select "><label for="">Show on</label>
+
+
+                    <div class="select-list ">
+
+
+                        <span id='ctl-show-all' class="btn"><span class="material-symbols-outlined">
+                                devices
+                            </span></span>
+
+                        <span id='ctl-mobile-off' class="btn"><span class="material-symbols-outlined">
+                                monitor
+                            </span></span>
+
+                        <span id='ctl-desk-off' class="btn"><span class="material-symbols-outlined">
+                                phone_iphone
+                            </span></span>
+
+
+
+
+
+
+                    </div>
+
+
+                </div>
+                
+                
+                 <div id="ctl-finalcountdown" class="elem elem-25 elem-select "><label for="">Final countdown</label>
+
+
+                    <div class="select-list ">
+                               <span class="btn" property-val=''><span class="material-symbols-outlined">
+                               timer_off
+                            </span><span class="inset-subtitle"></span></span>
+
+                        <span class="btn" property-val='finalcountdown-show'><span class="material-symbols-outlined">
+                              alarm_on
+                            </span><span class="inset-subtitle">show</span></span>
+
+                        <span  class="btn" property-val='finalcountdown-hidden'><span class="material-symbols-outlined">
+                               alarm_on
+                            </span><span class="inset-subtitle">hidden</span></span>
+
+
+
+
+
+
+                    </div>
+
+
+                </div>
+
+
+
+
+
+
+    <div id="ctl-test-ab" class="elem elem-25 elem-select "><label for="">Test A/B</label>
+
+
+                    <div class="select-list " style="font-weight: 300">
+
+
+                        <span id='' class="btn-text btn" property-val=''>A/B</span>
+
+                        <span id='' class="btn-text btn" property-val='test-ab-a'>A</span>
+
+                        <span id='' class="btn-text btn" property-val='test-ab-b'>B</span>
+
+
+
+
+
+
+                    </div>
+
+
+                </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            </div>
+
+
+
+
+            <div id="size-tools" class="group-elem">
+                <h3>Format</h3>
+
+
+
+                      <div id="ctl-size-max-width" class="elem elem-25">
+                    <label for="">Max-Width</label>
+                    <input id="wer" type="text" maxlength="4" min="20" max="100" class="numberonly" size="3">
+                    <span class="material-symbols-outlined icon" >
+                        width
+                    </span>
+                    <span class="inset-subtitle">%</span>
+                   
+                </div>
+
+                <div id="ctl-size-width" class="elem elem-25">
+                    <label for="">Width</label>
+                    <input id="wer" type="text" maxlength="4" min="20" class="numberonly" size="3">
+                    <span class="material-symbols-outlined icon" >
+                        width
+                    </span>
+                </div>
+
+
+
+                <div id='ctl-maintain-aspect-ratio' class="elem elem-25 btn">
+<!--
+                       <label for=""
+                        helper-call='helper-text-flow'>maintain aspect ratio</label>
+-->
+                        <span
+                        class="material-symbols-outlined">
+                        private_connectivity
+                    </span></div>
+
+
+
+                <div id="ctl-size-height" class="elem elem-25">
+                    <label for="">Height</label>
+                    <input type="text" maxlength="4" min="20" class="numberonly">
+                    <span class="material-symbols-outlined icon">
+                        height
+                    </span>
+                </div>
+
+
+                <div id='ctl-expand-section' class="elem elem-25 btn"><label for="">Expand section/block</label><span
+                        class="material-symbols-outlined">
+                        expand
+                    </span></div>
+                <div id='ctl-max-width' class="elem elem-25 btn"><label for="">full width</label><span
+                        class="material-symbols-outlined">
+                        width_full
+                    </span></div>
+
+
+
+
+
+
+ <div id="ctl-zindex" class="elem elem-25 elem-select "><label for="">Z-index</label>
+
+                    <div class="select-list">
+                        
+
+                        <span class="material-symbols-outlined btn" property-val=''>select_all <span class="inset-subtitle">normal</span></span>
+<!--                        <span class="material-symbols-outlined btn" property-val='zindexback2'>flip_to_back <span class="inset-subtitle">to back -1</span></span>-->
+                        <span class="material-symbols-outlined btn" property-val='zindexback'>flip_to_back <span class="inset-subtitle">to back</span></span>
+
+                        <span class="material-symbols-outlined btn" property-val='zindexfront'>flip_to_front <span class="inset-subtitle">to front</span></span>
+    
+<!--                        <span class="material-symbols-outlined btn" property-val='zindexfront2'>flip_to_front <span class="inset-subtitle">to front +1</span></span>-->
+
+
+                    </div>
+
+                </div>
+
+
+
+                <div id="ctl-elem-ratio" class="elem elem-25 elem-select "><label for="">Aspect ratio y</label>
+
+                    <div class="select-list">
+                        <span class="material-symbols-outlined btn" property-val='elem-free'>crop_free</span>
+
+                        <span class="material-symbols-outlined btn" property-val='elem-h1'>crop_16_9</span>
+
+                        <span class="material-symbols-outlined btn" property-val='elem-h2'>crop_3_2</span>
+
+                        <span class="material-symbols-outlined btn" property-val='elem-square'>crop_square</span>
+                        <span class="material-symbols-outlined btn" property-val='elem-v1' style="transform: rotate(90deg) translateY(2%)">crop_3_2</span>
+                        <span class="material-symbols-outlined btn" property-val='elem-v2' style="transform: rotate(90deg) translateY(2%)">crop_16_9</span>
+
+
+                    </div>
+
+                </div>
+
+
+
+
+
+<div class="subgroup-elem ">
+
+                <div id="ctl-block-child" class="elem elem-25 elem-select "><label for="">Childs p. line</label>
+
+                    <!--
+                    <span class="material-symbols-outlined icon">
+                        view_compact
+                    </span>
+-->
+                    <div class="select-list " style="text-align: center ; font-size: 11px; letter-spacing: .005em">
+
+                        <span class="btn" property-val='bloco50'>
+                            <svg class='svg-icon' width="100%" height="100%" viewBox="0 0 48 48" version="1.1"
+                                xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                xml:space="preserve" xmlns:serif="http://www.serif.com/"
+                                style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+                                <path
+                                    d="M5,38L6,39.028L42.151,39L43,38L43,10L42.151,9L6,8.972L5,10L5,38ZM7,40C6.2,40 5.5,39.7 4.9,39.1C4.3,38.5 4,37.8 4,37L4,11C4,10.2 4.3,9.5 4.9,8.9C5.5,8.3 6.2,8 7,8L41,8C41.8,8 42.5,8.3 43.1,8.9C43.7,9.5 44,10.2 44,11L44,37C44,37.8 43.7,38.5 43.1,39.1C42.5,39.7 41.8,40 41,40L7,40Z"
+                                    style="fill-rule:nonzero;" />
+                                <g transform="matrix(0.25,0,0,1.15385,18,-3.69231)">
+                                    <rect x="22" y="11" width="4" height="26" />
+                                </g>
+                            </svg>
+                        </span>
+                        <span class="btn" property-val='bloco33'>
+                            <svg class='svg-icon' width="100%" height="100%" viewBox="0 0 48 48" version="1.1"
+                                xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                xml:space="preserve" xmlns:serif="http://www.serif.com/"
+                                style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+                                <path
+                                    d="M5,38L6,39.028L42.151,39L43,38L43,10L42.151,9L6,8.972L5,10L5,38ZM7,40C6.2,40 5.5,39.7 4.9,39.1C4.3,38.5 4,37.8 4,37L4,11C4,10.2 4.3,9.5 4.9,8.9C5.5,8.3 6.2,8 7,8L41,8C41.8,8 42.5,8.3 43.1,8.9C43.7,9.5 44,10.2 44,11L44,37C44,37.8 43.7,38.5 43.1,39.1C42.5,39.7 41.8,40 41,40L7,40Z"
+                                    style="fill-rule:nonzero;" />
+                                <g transform="matrix(0.25,0,0,1.15385,24.5,-3.69231)">
+                                    <rect x="22" y="11" width="4" height="26" />
+                                </g>
+                                <g transform="matrix(0.25,0,0,1.15385,11.5,-3.69231)">
+                                    <rect x="22" y="11" width="4" height="26" />
+                                </g>
+                            </svg>
+                        </span>
+
+                        <span class="btn" property-val='bloco25'>
+                            <svg class='svg-icon' width="100%" height="100%" viewBox="0 0 48 48" version="1.1"
+                                xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                xml:space="preserve" xmlns:serif="http://www.serif.com/"
+                                style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+                                <path
+                                    d="M5,38L6,39.028L42.151,39L43,38L43,10L42.151,9L6,8.972L5,10L5,38ZM7,40C6.2,40 5.5,39.7 4.9,39.1C4.3,38.5 4,37.8 4,37L4,11C4,10.2 4.3,9.5 4.9,8.9C5.5,8.3 6.2,8 7,8L41,8C41.8,8 42.5,8.3 43.1,8.9C43.7,9.5 44,10.2 44,11L44,37C44,37.8 43.7,38.5 43.1,39.1C42.5,39.7 41.8,40 41,40L7,40Z"
+                                    style="fill-rule:nonzero;" />
+                                <g transform="matrix(0.25,0,0,1.15385,18,-3.69231)">
+                                    <rect x="22" y="11" width="4" height="26" />
+                                </g>
+                                <g transform="matrix(0.25,0,0,1.15385,27.75,-3.69231)">
+                                    <rect x="22" y="11" width="4" height="26" />
+                                </g>
+                                <g transform="matrix(0.25,0,0,1.15385,8.25,-3.69231)">
+                                    <rect x="22" y="11" width="4" height="26" />
+                                </g>
+                            </svg></span>
+
+                        <span class="btn" property-val='bloco15'>
+
+                            <svg class='svg-icon' width="100%" height="100%" viewBox="0 0 48 48" version="1.1"
+                                xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                xml:space="preserve" xmlns:serif="http://www.serif.com/"
+                                style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+                                <path
+                                    d="M5,38L6,39.028L42.151,39L43,38L43,10L42.151,9L6,8.972L5,10L5,38ZM7,40C6.2,40 5.5,39.7 4.9,39.1C4.3,38.5 4,37.8 4,37L4,11C4,10.2 4.3,9.5 4.9,8.9C5.5,8.3 6.2,8 7,8L41,8C41.8,8 42.5,8.3 43.1,8.9C43.7,9.5 44,10.2 44,11L44,37C44,37.8 43.7,38.5 43.1,39.1C42.5,39.7 41.8,40 41,40L7,40Z"
+                                    style="fill-rule:nonzero;" />
+                                <g transform="matrix(0.25,0,0,1.15385,18,-3.69231)">
+                                    <rect x="22" y="11" width="4" height="26" />
+                                </g>
+                                <g transform="matrix(0.25,0,0,1.15385,24.5,-3.69231)">
+                                    <rect x="22" y="11" width="4" height="26" />
+                                </g>
+                                <g transform="matrix(0.25,0,0,1.15385,11.5,-3.69231)">
+                                    <rect x="22" y="11" width="4" height="26" />
+                                </g>
+                                <g transform="matrix(0.25,0,0,1.15385,31,-3.69231)">
+                                    <rect x="22" y="11" width="4" height="26" />
+                                </g>
+                                <g transform="matrix(0.25,0,0,1.15385,5,-3.69231)">
+                                    <rect x="22" y="11" width="4" height="26" />
+                                </g>
+                            </svg>
+                        </span>
+
+
+
+
+                    </div>
+
+
+                </div>
+<div class="subelem">
+                <div id="ctl-block2-child-size" class="elem elem-25 elem-select ">
+<!--                <label for="">Child Size</label>-->
+
+
+                    <div class="select-list " style="text-align: center ; font-size: 11px; letter-spacing: .005em">
+
+                        <span class="btn" property-val='bloco50-1-1'>1/1</span>
+                        <span class="btn" property-val='bloco50-2-1'>2/1</span>
+                        <span class="btn" property-val='bloco50-1-2'>1/2</span>
+
+
+
+
+
+
+                    </div>
+
+
+                </div>
+                </div>
+
+</div>
+                <!--
+
+                <div id='ctl-bloco-mobile-double' class="elem elem-25 btn"><label for="">Double on mobile</label><span class="material-symbols-outlined">
+                        view_column_2
+                    </span>
+
+
+                    <span class="material-symbols-outlined icon-mobile">
+                        phone_iphone
+                    </span>
+                </div>
+-->
+
+
+
+
+                <div id="ctl-bloco-mobile" class="elem elem-25 elem-select "><label for="">Childs p. line</label>
+
+                    <div class="select-list" style="text-align: center ; font-size: 11px; letter-spacing: .005em">
+
+                        <span class=" btn" property-val='bloco-mobile-solo'><span class="material-symbols-outlined">
+                                splitscreen
+                            </span></span>
+                        <span class=" btn" property-val='bloco-mobile-double'>
+                            <svg class='svg-icon' width="100%" height="100%" viewBox="0 0 48 48" version="1.1"
+                                xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                xml:space="preserve" xmlns:serif="http://www.serif.com/"
+                                style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+                                <path
+                                    d="M5,38L6,39.028L42.151,39L43,38L43,10L42.151,9L6,8.972L5,10L5,38ZM7,40C6.2,40 5.5,39.7 4.9,39.1C4.3,38.5 4,37.8 4,37L4,11C4,10.2 4.3,9.5 4.9,8.9C5.5,8.3 6.2,8 7,8L41,8C41.8,8 42.5,8.3 43.1,8.9C43.7,9.5 44,10.2 44,11L44,37C44,37.8 43.7,38.5 43.1,39.1C42.5,39.7 41.8,40 41,40L7,40Z"
+                                    style="fill-rule:nonzero;" />
+                                <g transform="matrix(0.25,0,0,1.15385,18,-3.69231)">
+                                    <rect x="22" y="11" width="4" height="26" />
+                                </g>
+                            </svg>
+                        </span>
+                        <span class=" btn" property-val='bloco-mobile-mantain'>mantain</span>
+
+
+
+
+                    </div>
+
+                    <span class="material-symbols-outlined icon-mobile">
+                        phone_iphone
+                    </span>
+
+                </div>
+
+
+
+<div class="subgroup-elem">
+
+                    
+ <div id="ctl-border-radius" class="elem elem-25"><label for="">Round corner</label><input type="text"
+                        maxlength="4"  class="numberonly"> <span
+                        class="material-symbols-outlined icon" >rounded_corner</span> <span class="inset-subtitle">px</span></div>
+                        
+
+                <div id="ctl-border-radius-per" class="elem elem-25" ><label for="">Round corner</label><input type="text"
+                        maxlength="4" steps="0.1" class="numberonly"> <span
+                        class="material-symbols-outlined icon" >rounded_corner</span> <span class="inset-subtitle">%</span></div>
+                        
+                    <div class="subelem"> 
+                        <div id='ctl-border-radius-converttoper' class="elem elem-25 btn ">
+<!--                        <label for="">Convert</label>-->
+                        <span
+                        class="material-symbols-outlined">
+                       sync
+<!--                        <span class="inset-subtitle">px to %</span>-->
+                    </span></div>  
+                        </div> 
+                       </div> 
+               
+
+                <div id='ctl-bloco-content-hidden' class="elem elem-25 btn"><label for=""
+                        helper-call='helper-bloco-content-hidden'>content hidden</label><span
+                        class="material-symbols-outlined">
+                        copy_all
+                    </span></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            </div>
+            <!--fim size-tools-->
+
+            <div id="position-tools" class="group-elem">
+                <h3>Position</h3>
+
+                <div id='ctl-block-flow-text' class="elem elem-25 btn"><label for="" helper-call='helper-text-flow'>Block follow text align</label><span class="material-symbols-outlined">
+                        format_image_right
+                    </span></div>
+                    
+                    <div id='ctl-fliph' class="elem elem-25 btn"><label for="" helper-call='helper-text-flow'>Flip horrizontal</label><span class="material-symbols-outlined">
+                        flip
+                    </span></div>
+                    
+                    
+                    <div id='ctl-flipv' class="elem elem-25 btn"><label for="" helper-call='helper-text-flow'>Flip vetical</label><span class="material-symbols-outlined" style="transform: rotate(90deg)">
+                      flip
+                    </span></div>
+                    
+                    
+                    
+                     <div id="ctl-rotate" class="elem elem-25">
+                    <label for="">rotate box</label>
+                    <input id="wer" type="text" maxlength="4" min="-180" max="180" class="numberonly" size="3">
+                    <span class="material-symbols-outlined icon" >
+                       rotate_90_degrees_cw
+                    </span>
+                </div>
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+
+                <div id="ctl-content-position" class="elem elem-25 elem-select "><label for="">content position</label>
+
+                    <div class="select-list">
+                        <span class="material-symbols-outlined btn" property-val='content-v-top'>
+                            vertical_align_top</span>
+
+                        <span class="material-symbols-outlined btn" property-val='content-v-center'>
+                            vertical_align_center</span>
+
+                        <span class="material-symbols-outlined btn" property-val='content-v-bottom'>
+                            vertical_align_bottom</span>
+
+
+
+
+                    </div>
+
+                </div>
+
+
+
+                <div id='ctl-float-position' class="elem elem-25 "><label for="">Position</label>
+                    <div id="ctl-float-position-top-left" class="float-position btn" property-val='fixed-top-left'>
+                        <span class="material-symbols-outlined icon">
+                            north_west
+                        </span></div>
+
+                    <div id="ctl-float-position-top-right" class="float-position btn" property-val='fixed-top-right'>
+                        <span class="material-symbols-outlined icon">
+                            north_east
+                        </span></div>
+
+                    <div id="ctl-float-position-bottom-right" class="float-position btn"
+                        property-val='fixed-bottom-left'> <span class="material-symbols-outlined icon">
+                            south_west
+                        </span></div>
+
+                    <div id="ctl-float-position-bottom-left" class="float-position btn"
+                        property-val='fixed-bottom-right'> <span class="material-symbols-outlined icon">
+                            south_east
+                        </span></div>
+
+
+                </div>
+
+
+
+
+                <div id="ctl-position-9" class="elem elem-25 "><label for="">Position align</label>
+
+
+                    <div class="direcionalbox">
+                        <span class="btn" property-val="direcional-t-l"></span>
+                        <span class="btn" property-val="direcional-t-c"></span>
+                        <span class="btn" property-val="direcional-t-r"></span>
+
+                        <span class="btn" property-val="direcional-c-l"></span>
+                        <span class="btn" property-val="direcional-c-c"></span>
+                        <span class="btn" property-val="direcional-c-r"></span>
+
+                        <span class="btn" property-val="direcional-b-l"></span>
+                        <span class="btn" property-val="direcional-b-c"></span>
+                        <span class="btn" property-val="direcional-b-r"></span>
+
+
+
+                    </div>
+                </div>
+                
+                 <div id='ctl-position-centered' class="elem elem-25 btn"><label for="">position centered</label><span
+                        class="material-symbols-outlined">
+                       point_scan
+                    </span></div>
+
+                <div id='ctl-horizontal-align' class="elem elem-25 btn"><label for="">Child Horiz. align</label><span
+                        class="material-symbols-outlined">
+                        align_horizontal_center
+                    </span></div>
+
+
+
+                <!--
+                      <div id='ctl-vertical-align' class="elem elem-25 btn"><label for="">Vert. center align</label><span class="material-symbols-outlined">
+                        align_vertical_center
+                    </span></div>
+-->
+
+             <div id="ctl-reverse-order" class="elem elem-25 btn"><label for="">Reverse order</label><span
+                            class="material-symbols-outlined">
+                            swap_horizontal_circle
+                        </span>
+                        
+                         <span class="material-symbols-outlined icon-mobile">
+                        phone_iphone
+                    </span>
+                        </div>
+                        
+                        <div id='ctl-float' class="elem elem-25 btn"><label for=""
+                            helper-call='helper-float'>Float</label><span class="material-symbols-outlined">
+                            web_asset
+                        </span></div>
+
+            </div>
+
+            <!--fim position-tools-->
+
+            <div id="background-tools" class="group-elem">
+                <h3>Background</h3>
+                <div id="ctl-bg-color" class="elem elem-25" style="z-index: 1000"><label for="">Bg Color</label>
+                    <div class="input-color-box"><input id="color-picker-bg" class="color-picker" type="text"
+                            value="#0099cc" opacity></div>
+                </div>
+
+
+
+
+                <div id="ctl-bg-gradient-deg" class="elem elem-25 input-rotate input-rotate-norange">
+
+                    <label for="">Degree</label>
+                    <input type="text" id="bg-gradient-deg" name="test-3" maxlength="3"
+                        class=" numberonly circle-range-select" start-val="0" value="0" data-boundry="45;0" data-min="0"
+                        data-max="360" min="0" max="360" data-unit="$">
+
+
+                </div>
+
+
+
+
+
+
+                <div id="ctl-bg-color2" class="elem elem-25"><label for="">BG color 2</label>
+                    <div class="input-color-box"><input id="color-picker-bg2" class="color-picker" type="text"
+                            value="transparent" opacity></div>
+                </div>
+
+                <div id="ctl-bg-mask" class="elem elem-25"><label for="">Color mask</label>
+                    <div class="input-color-box"><input id="color-picker-bg-mask" class="color-picker" type="text"
+                            value="rgba(0, 0, 0, 0.01)" opacity></div>
+                </div>
+
+                <div id="ctl-bg-blur" class="elem elem-25"><label for="">Blur</label><input type="text" maxlength="2"
+                        class="numberonly"> <span class="material-symbols-outlined icon">deblur</span></div>
+
+
+
+
+
+
+
+
+
+
+                <div id='ctl-bg-image-folder' class="elem elem-25 btn-fixed ctl-image-folder"><label
+                        for="">Image</label><span class="material-symbols-outlined">
+                        vrpano
+                    </span></div>
+                <div id="ctl-bg-fixed" class="elem elem-25  btn" value='0' value='0'><label for="">Fixed</label><span
+                        class="material-symbols-outlined">wallpaper</span></div>
+
+
+
+
+                <!--		<div id="ctl-bg-cover" class="elem elem-25 btn"><label for="">Cover</label> <span class="material-symbols-outlined">open_with</span></div>-->
+
+                <div id="ctl-bg-size" class="elem elem-25 elem-select "><label for="">Bg img size</label>
+
+
+
+                    <div class="select-list">
+                        <span class="material-symbols-outlined btn" property-val='auto'
+                            property-val2='auto'>magnification_small <span class="inset-subtitle">auto</span></span>
+                        <span class="material-symbols-outlined btn" property-val='cover'
+                            property-val2='cover'>fit_screen<span class="inset-subtitle">Cover</span></span>
+                        <span class="material-symbols-outlined btn" property-val='contain'>aspect_ratio <span
+                                class="inset-subtitle">contain</span></span>
+                        <span class="material-symbols-outlined btn" property-val='100%'>width<span
+                                class="inset-subtitle">100% auto</span></span>
+                        <span class="material-symbols-outlined btn" property-val='50%'>width<span
+                                class="inset-subtitle">50% auto</span></span>
+
+                        <span class="material-symbols-outlined btn" property-val='auto 100%'>height <span
+                                class="inset-subtitle">auto 100%</span></span>
+                        <span class="material-symbols-outlined btn" property-val='auto 80%'>height <span
+                                class="inset-subtitle">auto 80%</span></span>
+                        <span class="material-symbols-outlined btn" property-val='auto 50%'>height <span
+                                class="inset-subtitle">auto 50%</span></span>
+                                
+                                  <span class="material-symbols-outlined btn" property-val='100% 100%'>drag_pan<span
+                                class="inset-subtitle">100% 100%</span></span>
+                                
+                                 <span class="material-symbols-outlined btn" property-val='50% 50%'>drag_pan<span
+                                class="inset-subtitle">50% 50%</span></span>
+
+
+                    </div>
+
+
+
+                </div>
+
+
+
+                <div id="ctl-bg-position" class="elem elem-25">
+                    <label for="">Position</label>
+                    <div class="elem-position-drag-bg">
+
+
+
+                        <div class="elem-position-drag-square-bg"></div>
+
+                    </div>
+                </div>
+
+
+
+
+
+
+
+
+
+
+                <div id="ctl-bg-repeat" class="elem elem-25 elem-select "><label for="">Repeat</label>
+
+
+
+
+
+                    <div class="select-list">
+                        <span class=" btn" property-val='no-repeat'
+                            style="text-align: center; font-weight:800; font-size:16px">·</span>
+                        <span class="material-symbols-outlined btn" property-val='repeat-x'>more_horiz</span>
+                        <span class="material-symbols-outlined btn" property-val='repeat-y'>more_vert</span>
+                        <span class="material-symbols-outlined btn" property-val='repeat'>apps</span>
+
+                    </div>
+
+
+
+                </div>
+
+
+            </div>
+
+
+
+
+
+
+            <div id="img-tools" class="group-elem">
+                <h3>Image</h3>
+                <!--
+		<div id="ctl-img" class="elem elem-100"><label for="">Link da imagem</label> <div class="folder-images-act"></div><input type="text"><span class="material-symbols-outlined icon">
+panorama
+</span></div>
+-->
+
+
+                <div id='ctl-image-folder' class="elem elem-25 btn-fixed ctl-image-folder"><label
+                        for="">Image</label><span class="material-symbols-outlined">
+                        photo_library
+                    </span></div>
+
+
+
+
+                <div id="ctl-img-ratio" class="elem elem-25 elem-select "><label for="">Crop Mask</label>
+
+                    <div class="select-list">
+                        <span class="material-symbols-outlined btn" property-val='crop-free'>crop_free</span>
+
+                        <span class="material-symbols-outlined btn" property-val='crop-h1'>crop_16_9</span>
+
+                        <span class="material-symbols-outlined btn" property-val='crop-h2'>crop_3_2</span>
+
+                        <span class="material-symbols-outlined btn" property-val='crop-square'>crop_square</span>
+                        <span class="material-symbols-outlined btn" property-val='crop-v1'
+                            style="transform: rotate(90deg) translateY(2%)">crop_3_2</span>
+                        <span class="material-symbols-outlined btn" property-val='crop-v2'
+                            style="transform: rotate(90deg) translateY(2%)">crop_16_9</span>
+
+
+                    </div>
+
+                </div>
+
+
+
+
+                <div id="ctl-img-obj-position3" class="elem elem-25">
+                    <label for="">Position Crop</label>
+                    <div class="elem-position-drag">
+                        <div class="elem-position-drag-square"></div>
+
+                    </div>
+                </div>
+
+                <div id="ctl-opacity-gradient" class="elem elem-25">
+                    <label for="">Gradient</label>
+                    <input type="text" maxlength="4" min="0" class="numberonly">
+                    <span class="material-symbols-outlined icon">
+                        gradient
+                    </span>
+                </div>
+
+
+
+                <div id="ctl-opacity" class="elem elem-25">
+                    <label for="">opacity</label>
+                    <input type="text" maxlength="3" min="0" max="100" class="numberonly" value='100'>
+                    <span class="material-symbols-outlined icon">
+                        gradient
+                    </span>
+                </div>
+                
+                <div id="ctl-img-zoom" class="elem elem-25  btn"  value='0'><label for="">zoom</label><span
+                        class="material-symbols-outlined">zoom_in</span></div>
+
+                <!--
+		  <div id='ctl-dynamic-face' class="elem elem-25 btn "><label for="">Dynamic face</label><span class="material-symbols-outlined">
+familiar_face_and_zone
+</span></div>
+-->
+
+
+            </div>
+
+
+
+
+
+
+            <div id="filters-tools" class="group-elem">
+                <h3>Filters</h3>
+
+
+                <div class="filters">
+
+                    <div class="filter" name='Gray-scale'><input type="text" id="filter-gray-scale" name="test-3"
+                            maxlength="3" class=" numberonly circle-range-select" start-val="0" value="0"
+                            data-boundry="45;0" data-min="0" data-max="100" max="100" data-unit="$"></div>
+
+                    <div class="filter" name='Sepia'><input type="text" id="filter-sepia" name="test-3" maxlength="3"
+                            class=" numberonly circle-range-select" start-val="0" value="0" data-boundry="45;0"
+                            data-min="0" data-max="100" data-unit="$"></div>
+
+                    <div class="filter" name='Blur'>
+                        <input type="text" id="filter-blur" name="test-3" maxlength="2"
+                            class=" numberonly circle-range-select" start-val="0" value="0" data-boundry="0;1"
+                            data-min="0" data-max="20" data-unit="">
+
+                    </div>
+
+                    <div class="filter" name='Contrast'>
+                        <input type="text" id="filter-contrast" name="test-3" maxlength="3"
+                            class=" numberonly circle-range-select" start-val="0" value="100" data-boundry="0;1"
+                            data-min="0" data-max="200" data-unit="">
+
+                    </div>
+
+                    <div class="filter" name='brightness'>
+                        <input type="text" id="filter-brightness" name="test-3" maxlength="3"
+                            class=" numberonly circle-range-select" start-val="0" value="100" data-boundry="0;1"
+                            data-min="0" data-max="200" data-unit="">
+
+                    </div>
+
+                    <div class="filter" name='invert'>
+                        <input type="text" id="filter-invert" name="test-3" maxlength="3"
+                            class=" numberonly circle-range-select" start-val="0" value="0" data-boundry="0;1"
+                            data-min="0" data-max="100" data-unit="">
+
+                    </div>
+
+                    <div class="filter" name='saturate'>
+                        <input type="text" id="filter-saturate" name="test-3" maxlength="3"
+                            class=" numberonly circle-range-select" start-val="0" value="100" data-boundry="0;1"
+                            data-min="0" data-max="200" data-unit="">
+
+                    </div>
+
+                    <div class="filter" name='Hue-rotate'>
+                        <input type="text" id="filter-hue-rotate" name="test-3" maxlength="3"
+                            class=" numberonly circle-range-select" start-val="0" value="0" data-boundry="0;1"
+                            data-min="0" data-max="360" data-unit="">
+
+                    </div>
+
+                    <div class="filters-reset">Reset Filters</div>
+
+                </div>
+
+                <div id="ctl-img-blend" class="elem elem-25 elem-select "><label for="">Img Blend</label>
+
+                    <span class="material-symbols-outlined icon">
+                        photo_filter
+                    </span>
+                    <div class="select-list " style="text-align: center ; font-size: 11px; letter-spacing: .005em">
+                        <span class="btn" property-val='normal'>normal</span>
+                        <span class=" btn" property-val='multiply'>multiply</span>
+                        <span class="btn" property-val='screen'>screen</span>
+                        <span class="btn" property-val='overlay'>overlay</span>
+                        <span class="btn" property-val='darken'>darken</span>
+                        <span class="btn" property-val='lighten'>lighten</span>
+                        <span class="btn" property-val='color-dodge'>C-dodge</span>
+                        <span class="btn" property-val='color-burn'>C-burn</span>
+                        <span class="btn" property-val='lighten'>hard-light</span>
+                        <span class="btn" property-val='hard-light'>lighten</span>
+                        <span class="btn" property-val='soft-light'>soft-light</span>
+                        <span class="btn" property-val='difference'>difference</span>
+                        <span class="btn" property-val='exclusion'>exclusion</span>
+                        <span class="btn" property-val='hue'>hue</span>
+                        <span class="btn" property-val='saturation'>saturation</span>
+                        <span class="btn" property-val='luminosity'>luminosity</span>
+
+
+
+                    </div>
+
+
+                </div>
+
+
+
+                <div id="ctl-bg-blend" class="elem elem-25 elem-select "><label for="">Bg Blend</label>
+
+                    <span class="material-symbols-outlined icon">
+                        photo_filter
+                    </span>
+                    <div class="select-list " style="text-align: center ; letter-spacing: .005em">
+                        <span class="btn" property-val='normal'>normal</span>
+                        <span class=" btn" property-val='multiply'>multiply</span>
+                        <span class="btn" property-val='screen'>screen</span>
+                        <span class="btn" property-val='overlay'>overlay</span>
+                        <span class="btn" property-val='darken'>darken</span>
+                        <span class="btn" property-val='lighten'>lighten</span>
+                        <span class="btn" property-val='color-dodge'>C-dodge</span>
+                        <span class="btn" property-val='color-burn'>C-burn</span>
+                        <span class="btn" property-val='lighten'>hard-light</span>
+                        <span class="btn" property-val='hard-light'>lighten</span>
+                        <span class="btn" property-val='soft-light'>soft-light</span>
+                        <span class="btn" property-val='difference'>difference</span>
+                        <span class="btn" property-val='exclusion'>exclusion</span>
+                        <span class="btn" property-val='hue'>hue</span>
+                        <span class="btn" property-val='saturation'>saturation</span>
+                        <span class="btn" property-val='luminosity'>luminosity</span>
+
+
+
+                    </div>
+
+
+                </div>
+
+
+
+
+
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <div id="type-tools" class="group-elem">
+                <h3>Typography</h3>
+                <div id="ctl-font-family" class="elem  elem-select">
+                    <label for="">Font</label>
+
+
+                    <div class="select-list select-list-text" style="text-align:left">
+                        <span class="family sans-serif btn">inherit <span style='font-size: .6em; opacity: .6'>(herdar
+                                do elemento pai)</span></span>
+
+
+
+                        <!--      sans  Serif Fonts                     -->
+                        <span class="family sans-serif btn">Arial</span>
+                        <span class="family cursive google btn">Roboto</span>
+                        <span class="family cursive google btn">Open Sans</span>
+                        <span class="family cursive google btn">Lato</span>
+                        <span class="family cursive google btn">Oswald</span>
+                        <span class="family cursive google btn">Montserrat</span>
+                        <span class="family cursive google btn">Source Sans Pro</span>
+                        <span class="family cursive google btn">Noto Sans</span>
+
+
+
+                        <!--        Serif Fonts                     -->
+                        <span class="family serif btn">Georgia</span>
+                        <span class="family serif btn">Hahmlet</span>
+                        <span class="family serif btn">Roboto Slab</span>
+                        <span class="family serif btn">Merriweather</span>
+                        <span class="family serif btn">Lora</span>
+                        <span class="family serif btn">PT Serif</span>
+
+
+
+                        <!--        Display Fonts                   -->
+                        <span class="family cursive google btn">Sansita One</span>
+                        <span class="family serif btn">Bebas Neue</span>
+                        <span class="family serif btn">Lobster</span>
+                        <span class="family serif btn">Comfortaa</span>
+                        <span class="family serif btn">Abril Fatface</span>
+                        <span class="family serif btn">Alfa Slab One</span>
+                        <span class="family cursive google btn">Courgette</span>
+                        <span class="family cursive google btn">Fredoka One</span>
+                        <span class="family cursive google btn">Fugaz One</span>
+                        <span class="family cursive google btn">Oleo Script</span>
+
+                        <!--        Handwriting Fonts                  -->
+                        <span class="family serif btn">Indie Flower</span>
+                        <span class="family serif btn">Amatic SC</span>
+                        <span class="family serif btn">Pacifico</span>
+                        <span class="family serif btn">Great Vibes</span>
+
+
+
+                        <!--        Monospace Fonts                  -->
+                        <span class="family serif btn">Source Code Pro</span>
+                        <span class="family serif btn">JetBrains Mono</span>
+
+
+
+
+
+
+
+
+
+
+                    </div>
+                </div>
+
+
+
+
+                <div id="ctl-font-color" class="elem elem-25">
+                    <label for="">Color</label>
+                    <div class="input-color-box"><input id="color-picker-font" class="color-picker" type="text"
+                            value="#0099cc"></div>
+                    <!--		<div class="colorpicker"></div>-->
+
+                </div>
+
+
+                <div id="ctl-font-color-stroke" class="elem elem-25">
+                    <label for="">Text border</label>
+                    <div class="input-color-box"><input id="color-picker-font-stroke" class="color-picker" type="text"
+                            value="rgba(0, 0, 0, 0)"></div>
+
+
+                </div>
+
+                <div id="ctl-stroke-width" class="elem elem-25"><label for="">Border width</label><input type="text"
+                        maxlength="3" class="numberonly" data-max='10'> <span
+                        class="material-symbols-outlined icon">rounded_corner</span></div>
+                        
+                        
+                     
+
+
+
+
+
+
+
+
+
+                <div id="ctl-font-title" class="elem elem-25 elem-select">
+                    <label for="">Title hierarchy</label>
+
+
+                    <div class="select-list">
+
+                        <span class="material-symbols-outlined btn" property-val='h1'>format_h1</span>
+                        <span class="material-symbols-outlined btn" property-val='h2'>format_h2</span>
+                        <span class="material-symbols-outlined btn" property-val='h3'>format_h3</span>
+                        <span class="material-symbols-outlined btn" property-val='h4'>format_h4</span>
+                        <!--<span class="material-symbols-outlined btn" property-val='h5'>format_h5</span>-->
+                    </div>
+
+
+
+
+
+
+                </div>
+
+
+
+
+                  <div id="ctl-font-size" class="elem elem-25 elem-select">
+                    <label for="">font-size</label>
+
+
+                    <div class="select-list">
+                         <span class="material-symbols-outlined btn" property-val=''>text_rotate_vertical <span
+                                class="inset-subtitle">Inherit</span></span>
+                         
+                           <span class="material-symbols-outlined btn" property-val='font-small'>looks_one</span>
+                        <span class="material-symbols-outlined btn" property-val='font-medium'>looks_two</span>
+                        <span class="material-symbols-outlined btn" property-val='font-big'>looks_3</span>
+                      
+                    
+                    </div>
+
+
+                </div>
+
+  <div id="ctl-font-size-mobile" class="elem elem-25 elem-select">
+                    <label for="">Mobile size</label>
+
+
+                    <div class="select-list">
+
+                        <span class="material-symbols-outlined btn" property-val=''>text_rotate_vertical <span
+                                class="inset-subtitle">Inherit</span></span>
+                           <span class="material-symbols-outlined btn" property-val='font-small-mobile'>looks_one</span>
+                        <span class="material-symbols-outlined btn" property-val='font-medium-mobile'>looks_two</span>
+                        <span class="material-symbols-outlined btn" property-val='font-big-mobile'>looks_3</span>
+                     
+                    
+                    </div>
+
+
+                    <span class="material-symbols-outlined icon-mobile">
+                        phone_iphone
+                    </span>
+                </div>
+
+
+
+<div id="ctl-line-height" class="elem elem-25 elem-select">
+                    <label for="">Line height</label>
+
+
+                    <div class="select-list">
+
+                        <span class="btn" property-val='lhinherit'><span class="inherit-val">Inherit</span></span>
+                        <span class="btn" property-val='lh1'>1</span>
+                        <span class="btn" property-val='lh1p2'>1.2</span>
+                        <span class="btn" property-val='lh1p4'>1.4</span>
+                         <span class="btn" property-val='lh1p6'>1.6</span>
+                          <span class="btn" property-val='lh1p8'>1.8</span>
+                             <span class="btn" property-val='lh2'>2</span>
+                   
+                    </div>
+
+
+
+<span class="material-symbols-outlined icon">
+                height
+                    </span>
+
+
+                </div>
+
+<!--
+                <div id="ctl-font-size" class="elem elem-25 btn">
+                    <label for="">Size</label>
+                    <span class="material-symbols-outlined">
+                        text_decrease
+                    </span>
+                </div>
+-->
+
+<!--
+                <div id="ctl-font-size-mobile" class="elem elem-25 btn">
+                    <label for="">Mobile size</label>
+                    <span class="material-symbols-outlined">
+                        text_decrease
+                    </span>
+
+                    <span class="material-symbols-outlined icon-mobile">
+                        phone_iphone
+                    </span>
+                </div>
+-->
+
+
+                <div id="ctl-font-weight" class="elem elem-25 elem-select">
+                    <label for="">Weight</label>
+
+
+                    <div class="select-list">
+                       
+                        <span class="btn-text btn" property-val=''>A+ <span
+                                class="inset-subtitle">Inherit</span></span>
+                    
+                        <span class="btn-text btn" property-val='font-thin'>A <span class="inset-subtitle">Thin</span></span>
+    <span class="btn-text btn" property-val='font-normal'>A  <span class="inset-subtitle">Normal</span></span>
+                        <span class="btn-text btn" property-val='font-hard'>A <span class="inset-subtitle">Strong</span></span>
+
+
+                    </div>
+                </div>
+
+
+
+                <div id="ctl-font-align" class="elem elem-25 elem-select">
+                    <label for="">Text align</label>
+
+
+                    <div class="select-list">
+                        <span class="material-symbols-outlined btn" property-val='left'>format_align_left</span>
+                        <span class="material-symbols-outlined btn" property-val='right'>format_align_right</span>
+                        <span class="material-symbols-outlined btn" property-val='center'>format_align_center</span>
+                        <span class="material-symbols-outlined btn" property-val='justify'>format_align_justify</span>
+                        <span class="material-symbols-outlined btn" property-val='inherit'>source_notes <span
+                                class="inset-subtitle">Inherit</span></span>
+
+
+                    </div>
+                </div>
+
+                <div id="ctl-font-align-mobile" class="elem elem-25 elem-select">
+                    <label for="">Mobile T. align</label>
+                    <span class="material-symbols-outlined icon-mobile">
+                        phone_iphone
+                    </span>
+
+                    <div class="select-list">
+                        <span class="material-symbols-outlined btn"
+                            property-val='mobile-text-align-none'>filter_list_off<span class="inset-subtitle">no
+                                style</span></span>
+                        <span class="material-symbols-outlined btn"
+                            property-val='mobile-text-left'>format_align_left</span>
+                        <span class="material-symbols-outlined btn"
+                            property-val='mobile-text-right'>format_align_right</span>
+                        <span class="material-symbols-outlined btn"
+                            property-val='mobile-text-center'>format_align_center</span>
+
+
+
+                    </div>
+
+
+                </div>
+
+
+
+
+
+
+
+
+
+
+                <div id="ctl-font-bg-clip" class="elem elem-25 btn">
+                    <label for="">Clip</label>
+                    <span class="material-symbols-outlined">
+                        join_right
+                    </span>
+                </div>
+
+                <div id="ctl-font-bold" class="elem elem-25 btn-fixed">
+                    <label for="">Bold</label>
+                    <span class="material-symbols-outlined">
+                        format_bold
+                    </span>
+                </div>
+                <div id="ctl-font-italic" class="elem elem-25  btn-fixed">
+                    <label for="">Italic</label>
+                    <span class="material-symbols-outlined">
+                        format_italic
+                    </span>
+                </div>
+                <div id="ctl-font-underline" class="elem elem-25   btn-fixed">
+                    <label for="">Underline</label>
+                    <span class="material-symbols-outlined">
+                        format_underlined
+                    </span>
+                </div>
+
+                <div id="ctl-font-strike" class="elem elem-25   btn-fixed">
+                    <label for="">Strikethrough</label>
+                    <span class="material-symbols-outlined">
+                        format_strikethrough
+                    </span>
+                </div>
+
+                <div id="ctl-font-subtext" class="elem elem-25 btn-fixed">
+                    <label for="">Subtext</label>
+                    <span class="material-symbols-outlined">
+                        variables
+                    </span>
+                </div>
+
+                <div id="ctl-font-link" class="elem elem-25   btn-fixed">
+                    <label for="">Link</label>
+                    <span class="material-symbols-outlined">
+                        add_link
+                    </span>
+                </div>
+
+                <div id="ctl-font-icon" class="elem elem-25   btn-fixed">
+                    <label for="">Add icon</label>
+                    <span class="material-symbols-outlined">
+                        diamond
+                    </span>
+                </div>
+
+                <div id="ctl-font-removeFormat" class="elem elem-25 btn-fixed">
+                    <label for="">Remove Format</label>
+                    <span class="material-symbols-outlined">
+                        format_clear
+                    </span>
+                </div>
+
+
+                <div id="ctl-font-nobreak" class="elem elem-25 btn">
+                    <label for="">No breack</label>
+                    <span class="material-symbols-outlined">
+                        variables
+                    </span>
+                </div>
+
+
+
+
+                <div id="ctl-lorem" class="elem elem-25">
+                    <label for="">Lorem generator</label>
+                    <input type="text" maxlength="2" class="numberonly">
+                    <span class="material-symbols-outlined icon">
+                        docs_add_on
+                    </span>
+                </div>
+
+
+
+
+                <div id="ctl-dynamic-text" class="elem elem-50 elem-select">
+                    <label for="">Dynamic Text</label>
+                    <span class="material-symbols-outlined icon">
+                        metabolism
+                    </span>
+
+                    <div class="select-list" style='text-indent: 1em'>
+                        
+                         <span class=" btn" property-val=''>None</span>
+
+                        <span class=" btn" property-val='randomName'>Name</span>
+
+                        <span class=" btn" property-val='dynamicNumber'>Number</span>
+                        <span class=" btn" property-val='dynamicWords'>Words</span>
+                        <!--
+                         <span class=" btn" property-val='dynamicLocation'>Location</span>
+                        <span class=" btn" property-val='dynamicDate'>Date</span>
+                        <span class=" btn" property-val='dynamicHour'>Time</span>
+-->
+
+
+                    </div>
+
+                </div>
+
+
+
+
+
+
+
+
+            </div>
+
+
+
+            <div id="dropmenu-tools" class="group-elem">
+                <h3>Menu</h3>
+
+                <div id="ctl-dropmenucompact" class="elem elem-25"><label for="">Compact mode</label><input type="text"
+                        maxlength="4" max="9999" class="numberonly" value="720">
+                        
+                         <span class="material-symbols-outlined icon">
+                        menu
+                    </span>
+                    </div>
+
+
+                <div id="ctl-dropmenubar" class="elem elem-25"><label for="">Side bar mode</label>
+                       <input type="text"
+                        maxlength="4" max="9999" class="numberonly" value="720">
+                       
+                        <span class="material-symbols-outlined icon">
+                        dock_to_left
+                    </span>
+                        </div>
+
+
+            </div>
+
+
+
+
+            <div id="link-tools" class="group-elem">
+                <h3>link</h3>
+                <div id="ctl-link" class="elem elem-75"><label for="">Link</label><input type="text"></div>
+
+
+
+
+
+
+                <div id="ctl-link-tab" class="elem elem-25 btn">
+                    <label for="">Open new ta</label>
+                    <span class="material-symbols-outlined">
+                        open_in_new
+                    </span>
+                </div>
+
+                <div id="ctl-show-modal" class="elem elem-75 elem-select"><label for="">Show modal</label>
+
+                    <div class="select-list select-list-text">
+                        <span class=" btn" property-val='none'>none</span>
+
+
+
+
+
+                    </div>
+                </div>
+
+
+
+            </div>
+
+            <div id="animation-tools" class="group-elem">
+                <h3>Animation</h3>
+                <div id="ctl-button-animation" class="elem elem-50 elem-select"><label for="">hover animation</label>
+
+                    <div class="select-list select-list-text">
+                        <span class=" btn" property-val=''>none</span>
+
+                        <span class=" btn" property-val='darken'>Dark</span>
+                        <span class=" btn" property-val='zoom'>zoom</span>
+
+
+                        <span class=" btn" property-val='pulse'>pulse</span>
+                        <span class=" btn" property-val='wobble-vertical'>wobble vertical</span>
+                        <span class=" btn" property-val='wobble-horizontal'>wobble horizontal</span>
+
+                        <span class=" btn" property-val='left-1'>Left 1</span>
+                        <span class=" btn" property-val='center-1'>center 1</span>
+
+                        <span class=" btn" property-val='circle-center'>circle from center</span>
+                        <span class=" btn" property-val='curve-top'>curve from top</span>
+
+
+
+                    </div>
+                </div>
+
+
+
+
+
+                <div id="ctl-all-hover-animation" class="elem elem-50 elem-select">
+                    <label for="">hover animation</label>
+
+                    <div class="select-list select-list-text">
+                        <span class=" btn" property-val=''>none</span>
+
+                        <span class=" btn" property-val='pulse'>Pulse</span>
+                        <span class=" btn" property-val='balance'>Balance</span>
+                        <span class=" btn" property-val='wobble-vertical'>wobble vertical</span>
+                        <span class=" btn" property-val='wobble-horizontal'>wobble horizontal</span>
+                        <span class=" btn" property-val='zoom'>Zoom</span>
+                        <span class=" btn" property-val='bg-zoom'>Background Zoom</span>
+
+
+                        <span class="btn animation-only-blocks" property-val='c-reveal'>Content reveal</span>
+
+
+                        <span class=" btn animation-only-blocks" property-val='c-reveal-b'>Cont. reveal b</span>
+
+
+
+                    </div>
+
+
+                </div>
+
+
+
+                <div id="ctl-non-hover-animation" class="elem elem-50 elem-select"><label for="">Non hover
+                        animation</label>
+
+                    <div class="select-list select-list-text">
+                        <span class=" btn" property-val=''>none</span>
+                        <span class=" btn" property-val='pulse'>Pulse</span>
+                        <span class=" btn" property-val='balance'>Balance</span>
+                        <span class=" btn" property-val='wobble-vertical'>wobble vertical</span>
+                        <span class=" btn" property-val='wobble-horizontal'>wobble horizontal</span>
+
+
+
+
+                    </div>
+                </div>
+
+
+
+                <div id="ctl-father-hover-animation" class="elem elem-50 elem-select"><label for="">father hover
+                        animation</label>
+
+                    <div class="select-list select-list-text">
+                        <span class=" btn" property-val=''>none</span>
+                        <span class=" btn" property-val='show'>Show </span>
+                        <!--
+                        <span class=" btn" property-val='showtop'>Show from top</span>
+                        <span class=" btn" property-val='showbottom'>Show from bottom</span>
+                         <span class=" btn" property-val='showleft'>Show from left</span>
+                        <span class=" btn" property-val='showright'>Show from right</span>
+-->
+
+
+
+
+
+                    </div>
+                </div>
+
+
+
+            </div>
+
+
+
+
+
+
+
+            <div id="contact-float-tools" class="group-elem">
+                <h3>Contact Float</h3>
+
+                <div id="ctl-contact-float-number" class="elem elem-100">
+                    <label for="">Whatsapp Number</label>
+                    <input type="text" value="0" class="">
+                    <span class="material-symbols-outlined icon">
+                        add_to_home_screen
+                    </span>
+                </div>
+
+
+                <div class="elem-textarea elem textarea-fixed">
+                    <textarea id="ctl-contact-float-text" class="textarea"></textarea>
+                    <label for="">Text</label>
+                </div>
+            </div>
+
+
+
+
+
+
+
+
+
+
+            <div id="video-tools" class="group-elem">
+                <h3>Video</h3>
+                <div class="elem-textarea elem">
+                    <textarea id="ctl-video" class="textarea"></textarea>
+                </div>
+
+                <div id="ctl-youtube-hidden" class="elem elem-25 btn"><label for="">Youtube hidden infos</label><span
+                        class="material-symbols-outlined">
+                        youtube_activity
+                    </span></div>
+
+
+<!--
+                <div id="ctl-playerbtn-hidden" class="elem elem-25 btn"><label for="">Hhh</label><span
+                        class="material-symbols-outlined">
+                        resize
+                    </span></div>
+-->
+
+                <div id="ctl-video-ratio" class="elem elem-25 elem-select "><label for="">Crop ratio</label>
+
+                    <div class="select-list">
+
+
+                        <span class="material-symbols-outlined btn" property-val='ratio-video-h'>crop_16_9</span>
+
+
+                        <span class="material-symbols-outlined btn" property-val='ratio-video-square'>crop_square</span>
+                        <span class="material-symbols-outlined btn" property-val='ratio-video-v'
+                            style="transform: rotate(90deg) translateY(2%)">crop_16_9</span>
+
+
+                    </div>
+
+                </div>
+
+
+                <div id="ctl-video-float" class="elem elem-25 btn"><label for="">Float on scroll</label><span
+                        class="material-symbols-outlined">pip
+                    </span></div>
+
+            </div>
+
+
+
+
+
+
+
+
+
+
+            <div id="code-tools" class="group-elem">
+                <h3>code</h3>
+                <div id="ctl-codearea" class="elem-textarea elem">
+                    <textarea id="" class="textarea"></textarea>
+                </div>
+            </div>
+
+
+            <div id="border-tools" class="group-elem">
+                <h3>Bordas</h3>
+                <div id="ctl-border-color" class="elem elem-25"><label for="">Color</label>
+                    <div class="input-color-box"><input id="color-picker-border" class="color-picker" type="text"
+                            value="#0099cc"></div>
+                </div>
+                <!--		<div id="ctl-border-width" class="elem elem-25"><label for="">Width</label><input type="text" maxlength="2" class="numberonly"> <span class="material-symbols-outlined icon">border_outer</span></div>-->
+
+
+
+
+                <div id="ctl-border-width4" class="elem elem-25 input4">
+                    <label for="">Width</label>
+                    <input id='border-width-top' type="text" maxlength="2" max="50" class="numberonly" value="0">
+                    <input id='border-width-right' type="text" maxlength="2" max="50" class="numberonly" value="0">
+                    <input id='border-width-bottom' type="text" maxlength="2" max="50" class="numberonly" value="0">
+                    <input id='border-width-left' type="text" maxlength="2" max="50" class="numberonly" value="0">
+  
+                </div>
+
+
+
+ <div id="ctl-border-style" class="elem elem-25 elem-select "><label for="">Border style</label>
+
+                    <div class="select-list">
+                        <span class="material-symbols-outlined btn" property-val='solid' ><span class="bordeerstyleicon" style="border-style:solid"></span><span class="inset-subtitle">solid</span></span>
+
+                        <span class="material-symbols-outlined btn" property-val='dashed'><span class="bordeerstyleicon" style="border-style:dashed"></span><span class="inset-subtitle">dashed</span></span>
+
+                        <span class="material-symbols-outlined btn" property-val='dotted'><span class="bordeerstyleicon" style="border-style:dotted"></span><span class="inset-subtitle">dotted</span></span>
+                        
+                        <span class="material-symbols-outlined btn" property-val='groove'><span class="bordeerstyleicon" style="border-style:groove"></span><span class="inset-subtitle">groove</span></span>
+                        
+                        <span class="material-symbols-outlined btn" property-val='ridge'><span class="bordeerstyleicon" style="border-style:ridge"></span><span class="inset-subtitle">ridge</span></span>
+                        
+                        <span class="material-symbols-outlined btn" property-val='double'><span class="bordeerstyleicon" style="border-style:double"></span><span class="inset-subtitle">double</span></span>
+
+                      
+
+
+                    </div>
+
+                </div>
+
+
+
+
+
+
+
+            </div>
+
+
+
+            <div id="margin-tools" class="group-elem">
+                <h3>Margin & space</h3>
+
+<!--
+   
+                <div id="ctl-margin-4" class="elem elem-25  elem-4-45"><label for="">margin+</label>
+
+                    <div class="elem-4-45-sub">
+                        <div id="ctl-margin-top" class="btn" value="1"><span
+                                class="material-symbols-outlined">arrow_downward</span></div>
+                        <div id="ctl-margin-right" class="btn" value="1"><span
+                                class="material-symbols-outlined">arrow_downward</span></div>
+                        <div id="ctl-margin-bottom" class="btn" value="1"><span
+                                class="material-symbols-outlined">arrow_downward</span></div>
+                        <div id="ctl-margin-left" class="btn" value="1"><span
+                                class="material-symbols-outlined">arrow_downward</span></div>
+                    </div>
+
+
+
+
+                </div>
+-->
+                <div id="ctl-margin-free" class="elem elem-25 input4">
+                    <label for=""  helper-call='helper-margin'>margin</label>
+                    <input id='ctl-margin-top-free' type="text" maxlength="3"  max="999" min="-100" class="numberonly" value="0" placeholder="smart">
+                    <input id='ctl-margin-right-free' type="text" maxlength="3" max="999" min='-100' class="numberonly" value="0" placeholder="auto">
+                    <input id='ctl-margin-bottom-free' type="text" maxlength="3" max="999" class="numberonly" min="-100" value="0" placeholder="smart">
+                    <input id='ctl-margin-left-free' type="text" maxlength="3" max="999" min='-100' class="numberonly" value="0" placeholder="auto">
+  
+                </div>
+
+
+
+                <div id="ctl-padding" class="elem elem-25 btn"><label for="">Inset space</label><span
+                        class="material-symbols-outlined">
+                        crop_free
+                    </span></div>
+
+                <div id="ctl-space-between" class="elem elem-25 btn"><label for="">space between</label><span
+                        class="material-symbols-outlined">
+                        grid_4x4
+                    </span></div>
+
+
+            </div>
+
+            <div id="progbar-tools" class="group-elem">
+                <h3>Progress bar</h3>
+
+ <div id="ctl-progbar-start" class="elem elem-25"><label for="">start</label><input type="text"
+                        maxlength="6" class="numberonly" value="0" max="90" min="0"> <span
+                        class="material-symbols-outlined icon">start</span><span class="inset-subtitle">%</span></div>
+                        
+<div id="ctl-progbar-stop" class="elem elem-25"><label for="">Pause</label><input type="text"
+                        maxlength="6" class="numberonly" value="100" max="100" min="10"> <span
+                        class="material-symbols-outlined icon">pause</span><span class="inset-subtitle">%</span></div>
+                        
+                        <div id="ctl-progbar-time" class="elem elem-25"><label for="">Time</label><input type="text"
+                        maxlength="6" class="numberonly" value="60" min="1" > <span
+                        class="material-symbols-outlined icon">schedule</span><span class="inset-subtitle">Seconds</span></div>
+
+            </div>
+
+
+
+            <div id="dynamic-text-tools" class="group-elem">
+                <h3>Dynamic Text</h3>
+
+
+
+                <div id="ctl-dynamic-name-sex" class="elem elem-25 elem-select">
+                    <label for="">First name</label>
+
+
+                    <div class="select-list">
+
+                        <span class="material-symbols-outlined btn" property-val='anyname'>wc</span>
+                        <span class="material-symbols-outlined btn" property-val='malename'>man</span>
+                        <span class="material-symbols-outlined btn" property-val='femalename'>woman</span>
+
+                    </div>
+
+                </div>
+
+
+
+
+                <div id="ctl-last-name" class="elem elem-25 btn"><label for="">last name</label><span
+                        class="material-symbols-outlined">
+                        history_edu
+                    </span></div>
+
+
+                <div id="ctl-dynamic-hours" class="elem elem-25"><label for="">Hours+</label><input type="text"
+                        maxlength="3" class="numberonly"> <span
+                        class="material-symbols-outlined icon">rounded_corner</span></div>
+
+
+                <div id="ctl-dynamic-minutes" class="elem elem-25"><label for="">Minutes+</label><input type="text"
+                        maxlength="3" class="numberonly"> <span
+                        class="material-symbols-outlined icon">rounded_corner</span></div>
+
+
+
+
+
+
+
+
+
+                <div id="ctl-dynamic-number-start" class="elem elem-25"><label for="">Start val</label><input
+                        type="text" maxlength="6" class="numberonly" value="" placeholder="random"> <span
+                        class="material-symbols-outlined icon">start</span></div>
+
+                <div id="ctl-dynamic-number-min" class="elem elem-25"><label for="">min val</label><input type="text"
+                        maxlength="6" class="numberonly" placeholder="0"> <span
+                        class="material-symbols-outlined icon">remove</span></div>
+
+
+                <div id="ctl-dynamic-number-max" class="elem elem-25"><label for="">max val</label><input type="text"
+                        maxlength="6" class="numberonly" placeholder="1000"> <span
+                        class="material-symbols-outlined icon">add</span></div>
+
+
+
+
+                <div id="ctl-dynamic-number-refresh-max" class="elem elem-25"><label for="">Rate to
+                        refresh</label><input type="text" maxlength="5" class="numberonly" placeholder="5"> <span
+                        class="material-symbols-outlined icon">autorenew</span></div>
+
+
+
+                <div id="ctl-dynamic-number-d" class="elem elem-25 elem-select">
+                    <label for="">direction</label>
+
+
+                    <div class="select-list">
+
+                        <span class="material-symbols-outlined btn"
+                            property-val='dynamic-number-up-down'>unfold_more</span>
+                        <span class="material-symbols-outlined btn"
+                            property-val='dynamic-number-up'>keyboard_double_arrow_up</span>
+                        <span class="material-symbols-outlined btn"
+                            property-val='dynamic-number-down'>keyboard_double_arrow_down</span>
+
+                    </div>
+
+                </div>
+
+
+
+
+                <div id="ctl-dynamic-words" class="elem elem-100"><label for="">Words</label><input type="text" value=""
+                        placeholder="words"> <span class="material-symbols-outlined icon">start</span></div>
+
+                <div id="ctl-dynamic-words-random" class="elem elem-25 btn"><label for="">Random order</label><span
+                        class="material-symbols-outlined">
+                        shuffle
+                    </span></div>
+
+
+                
+                
+                
+
+                <div id="ctl-dynamic-text-refresh" class="elem elem-25 elem-select"><label for="">Dynamic refresh</label>
+                       
+                       
+                       
+                          <div class="select-list">
+                           <span class="material-symbols-outlined btn"
+                            property-val=''>delete_history</span>
+
+                        <span class="material-symbols-outlined btn"
+                            property-val='dynamic-text-refresh5s'>replay_5</span>
+                        <span class="material-symbols-outlined btn"
+                            property-val='dynamic-text-refresh10s'>replay_10</span>
+                        <span class="material-symbols-outlined btn"
+                            property-val='dynamic-text-refresh30s'>replay_30</span>
+
+                    </div>
+                       
+                       
+                       
+                     </div>
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                     <div id="ctl-dynamic-text-cookie" class="elem elem-25 btn"><label for="">memory Last load</label><span
+                        class="material-symbols-outlined">
+                        memory
+                    </span></div>
+
+            </div>
+
+
+
+
+
+
+<!--
+            <div id="availability-tools" class="group-elem">
+                <h3>availability</h3>
+
+                <div id="ctl-availability-val" class="elem elem-100"><label for="">Reload values</label><input
+                        type="text" placeholder="5"> <span class="material-symbols-outlined icon">autorenew</span></div>
+            </div>
+-->
+
+
+
+            <div id="carousel-tools" class="group-elem">
+                <h3>Carousel</h3>
+
+                <div id="ctl-carousel-card-full" class="elem elem-25 btn"><label for="">Card fullsize</label><span
+                        class="material-symbols-outlined">
+                        width_full
+                    </span></div>
+
+
+
+
+                <div id="ctl-carousel-auto" class="elem elem-25 btn"><label for="">Auto</label><span
+                        class="material-symbols-outlined">
+                        input
+                    </span></div>
+
+
+
+            </div>
+
+
+
+
+   <div id="iframe-tools" class="group-elem">
+                <h3>Iframe</h3>
+                
+                 <div id="ctl-iframe-url" class="elem elem-100"><label for="" helper-call='helper-open-delay'>Iframe URL</label><input type="text" placeholder="URL" >
+                    <span class="material-symbols-outlined icon">
+                        http
+                    </span>
+                </div>
+
+<!--
+                <div id="ctl-carousel-card-full" class="elem elem-25 btn"><label for="">Card fullsize</label><span
+                        class="material-symbols-outlined">
+                        width_full
+                    </span></div>
+-->
+
+
+
+
+             
+
+
+
+            </div>
+
+
+
+
+
+
+
+            <div id="modal-tools" class="group-elem">
+                <h3>Modal</h3>
+
+
+
+                <div id="ctl-modal-mask" class="elem elem-25 btn"><label for="">Modal mask</label><span
+                        class="material-symbols-outlined">
+                        flip_to_front
+                    </span></div>
+
+                <div id="ctl-modal-show-load" class="elem elem-25 btn"><label for="">Show on load</label><span
+                        class="material-symbols-outlined">
+                        reopen_window
+                    </span></div>
+
+                <div id="ctl-modal-tofront" class="elem elem-25 btn"><label for="">sobrepor tudo</label><span
+                        class="material-symbols-outlined">
+                        width_full
+                    </span></div>
+
+                <div id="ctl-modal-icon-show" class="elem elem-25 btn"><label for="">icone fechar</label><span
+                        class="material-symbols-outlined">
+                        disabled_by_default
+                    </span></div>
+
+
+
+
+            </div>
+
+
+
+            <div id="shadow-tools" class="group-elem">
+                <h3>Shadow</h3>
+                <div id="ctl-shadow-color" class="elem elem-25"><label for="">Color</label>
+                    <div class="input-color-box"><input id="color-picker-shadow" class="color-picker" type="text"
+                            value="#0099cc"></div>
+                </div>
+
+                <div id="ctl-shadow-x" class="elem elem-25">
+                    <label for="">x</label>
+                    <input type="number" value="0" min='-99' max="99" class="numberonly">
+                    <span class="material-symbols-outlined icon">
+                        add_circle
+                    </span>
+                </div>
+
+                <div id="ctl-shadow-y" class="elem elem-25">
+                    <label for="">y</label>
+                    <input type="number" value="0" min='-99' max="99" maxlength="2" class="numberonly">
+                    <span class="material-symbols-outlined icon">
+                        add_circle
+                    </span>
+                </div>
+
+                <div id="ctl-shadow-blur" class="elem elem-25">
+                    <label for="">Blur</label>
+                    <input type="text" maxlength="2" class="numberonly" value="0">
+                    <span class="material-symbols-outlined icon">
+                        blur_on
+                    </span>
+                </div>
+
+
+            </div>
+
+
+
+
+
+
+
+            <div id="list-tools" class="group-elem">
+                <h3>List style</h3>
+                <div id="ctl-list-type" class="elem elem-25 btn"><label for="">List type Number</label><span
+                        class="material-symbols-outlined">
+                        format_list_numbered
+                    </span></div>
+
+                <div id="ctl-list-icon-position" class="elem elem-25 btn"><label for="">Icon position</label><span
+                        class="material-symbols-outlined">
+                        vertical_align_center
+                    </span></div>
+
+                <div id="ctl-list-icon-size" class="elem elem-25 btn"><label for="">Icon size</label><span
+                        class="material-symbols-outlined">
+                        library_add
+                    </span></div>
+
+                <div id="ctl-list-columns" class="elem elem-25 btn"><label for="">2 columns</label><span
+                        class="material-symbols-outlined">
+                        view_column_2
+                    </span></div>
+
+
+            </div>
+
+
+
+            <div id="mockup3d-tools" class="group-elem">
+                <h3>Mockup 3d</h3>
+                
+                   <div id="ctl-3d-color" class="elem elem-25">
+                    <label for="">Color</label>
+                    <div class="input-color-box"><input id="color-picker-3d" class="color-picker" type="text"
+                            value="#0099cc"></div>
+                    <!--		<div class="colorpicker"></div>-->
+
+                </div>
+                
+                 <div id='ctl-3d-image-folder' class="elem elem-25 btn-fixed ctl-image-folder"><label
+                        for="">Image</label><span class="material-symbols-outlined">
+                        vrpano
+                    </span></div>
+
+ <div id="ctl-3d-perspective" class="elem elem-25"><label for="">Perspective</label><input value="1000" type="text"
+                        maxlength="4" min="500" max="2000" data-max="2000" class="numberonly"> <span
+                        class="material-symbols-outlined icon">deployed_code</span></div>
+                        
+                        
+                <div id="ctl-3d-rotate" class="elem elem-25"><label for="">Roatate</label><input value="0" type="text"
+                        maxlength="3" min="-90" max="90" data-max="90" class="numberonly"> <span
+                        class="material-symbols-outlined icon">autorenew</span></div>
+
+
+                <div id="ctl-3d-x" class="elem elem-25"><label for="">Rotate</label><input value="0" type="text"
+                        maxlength="3" min="-90" max="90" data-max="90" class="numberonly"> <span
+                        class="material-symbols-outlined icon" style="transform: rotate(-90deg)  translateY(12px) translateX(15px)">360</span></div>
+
+                <div id="ctl-3d-y" class="elem elem-25"><label for="">Rotate</label><input value="0" type="text"
+                        maxlength="3" min="-90" max="90" data-max="90" class="numberonly"> <span
+                        class="material-symbols-outlined icon">360</span></div>
+
+                <div id="ctl-3d-scale" class="elem elem-25"><label for="">Zoom</label><input value="100" type="text"
+                        maxlength="3" min="10" max="300" data-max="300" class="numberonly"> <span
+                        class="material-symbols-outlined icon">zoom_in</span></div>
+
+
+
+                <div id="ctl-3d-translatex" class="elem elem-25"><label for="">Translate x</label><input value="0"
+                        type="text" maxlength="3" min="-90" max="90" data-max="90" class="numberonly"> <span
+                        class="material-symbols-outlined icon">arrow_range</span></div>
+
+                <div id="ctl-3d-translatey" class="elem elem-25"><label for="">Translate Y</label><input value="0"
+                        type="text" maxlength="3" min="-90" max="90" data-max="90" class="numberonly"> <span
+                        class="material-symbols-outlined icon">height</span></div>
+
+
+
+
+
+                <div id="ctl-mockup3d" class="list-mockup3d">
+                    <div class="list-3d-item" data-3d='mockupphone3d' elem-name="Phone"><img src="img/mockup3d/mockup3d-phone.svg" alt="">
+                    </div>
+                    <div class="list-3d-item" data-3d='mockupbook3d' elem-name="Book"><img src="img/mockup3d/mockup3d-book.svg" alt="">
+                    </div>
+                    <div class="list-3d-item" data-3d='mockupmacbook3d' elem-name="Notebook"><img src="img/mockup3d/mockup3d-macbook.svg" alt="">
+                    </div>
+                    
+                    <div class="list-3d-item" data-3d='mockupbox3d' elem-name="Box"><img src="img/mockup3d/mockup3d-box.svg" alt="">
+                    </div>
+                    
+<!--
+                     <div class="list-3d-item" data-3d='mockupmacbook3d' elem-name="Monitor"><img src="img/mockup3d/mockup3d-monitor.svg" alt="">
+                    </div>
+                    
+                    <div class="list-3d-item" data-3d='mockupphone3d' elem-name="TV"><img src="img/mockup3d/mockup3d-tv.svg" alt="">
+                    </div>
+                    <div class="list-3d-item" data-3d='mockupbook3d' elem-name="Papper"><img src="img/mockup3d/mockup3d-papper.svg" alt="">
+                    </div>
+-->
+                    
+                    
+
+
+
+                </div>
+
+
+
+
+            </div>
+
+
+
+            <div id="icon-tools" class="group-elem">
+                <h3>ícones</h3>
+
+                <div id='ctl-icon-color' class="elem elem-25"><label for="">Color</label>
+                    <div class="input-color-box"><input id="color-picker-icon" class="color-picker" type="text"
+                            value="#0099cc"></div>
+                </div>
+
+
+
+
+
+                <div id='ctl-icon-color-stroke' class="elem elem-25"><label for="">Stroke</label>
+                    <div class="input-color-box"><input id="color-picker-icon-stroke" class="color-picker" type="text"
+                            value="#0099cc"></div>
+                </div>
+
+
+
+
+                <div id="ctl-icon-stroke" class="elem elem-25"><label for="">Stroke</label><input type="text"
+                        maxlength="3" max="20" data-max="20" class="numberonly"> <span
+                        class="material-symbols-outlined icon">rounded_corner</span></div>
+
+
+   <div id="ctl-rotate-icon" class="elem elem-25">
+                    <label for="">rotate icon</label>
+                    <input id="wer" type="text" maxlength="4" min="-180" max="180" class="numberonly" size="3">
+                    <span class="material-symbols-outlined icon" >
+                       rotate_90_degrees_cw
+                    </span>
+                </div>
+
+
+                <div id='ctl-icon-list' class="list-menu-icon "></div>
+
+
+
+            </div>
+
+
+
+
+
+
+
+            <div id="ilustration-tools" class="group-elem">
+                <h3>Ilustration & ornaments</h3>
+
+                <div id='ctl-ilustration-color1' class="elem elem-25"><label for="">Color</label>
+                    <div class="input-color-box"><input id="ilustration-color1" class="color-picker" type="text"
+                            value="#0099cc"></div>
+                </div>
+
+                <div id='ctl-ilustration-color2' class="elem elem-25"><label for="">Color</label>
+                    <div class="input-color-box"><input id="ilustration-color2" class="color-picker" type="text"
+                            value="#0099cc"></div>
+                </div>
+
+                <div id='ctl-ilustration-color3' class="elem elem-25"><label for="">Color</label>
+                    <div class="input-color-box"><input id="ilustration-color3" class="color-picker" type="text"
+                            value="#0099cc"></div>
+                </div>
+
+
+
+
+
+
+
+                <div id='ctl-ilustration-list' class="list-ilustration"></div>
+
+
+
+            </div>
+
+
+
+
+            <div id="input-tools" class="group-elem" style="margin-bottom:100px">
+                <h3>Input</h3>
+
+              
+
+                
+
+
+    <div id="ctl-input-type" class="elem elem-50 elem-select"><label for="">Type</label>
+
+                    <div class="select-list select-list-text">
+                     
+
+                        <span class=" btn" property-val='text'>Text</span>
+                        <span class=" btn" property-val='number'>Number</span>
+                        <span class=" btn" property-val='checkbox'>Checkbox</span>
+                          <span class=" btn" property-val='radio'>Radio</span>
+                         <span class=" btn" property-val='time'>Time</span>
+                           <span class=" btn" property-val='date'>Date</span>
+                           
+
+
+
+
+
+                    </div>
+                </div>
+                
+                   <div id="ctl-input-name" class="elem elem-50">
+                    <label for="">Name</label>
+                    <input id="" type="text"  class="" >
+                    <span class="material-symbols-outlined icon" >
+                     cable
+                    </span>
+                   
+                   
+                </div>
+                
+                   <div id="ctl-input-mask" class="elem elem-75">
+                    <label for="">mask</label>
+                    <input id="" type="text"  class="" >
+                    <span class="material-symbols-outlined icon" >
+                     cable
+                    </span>
+                   
+                   
+                </div>
+               
+
+
+
+
+             <div id="ctl-input-checkedcolor" class="elem elem-25"><label for="">Checked BG</label>
+                    <div class="input-color-box"><input id="input-checkdcolor" class="color-picker" type="text"
+                            value="#0099cc"></div>
+                </div>
+
+
+
+            </div>
+
+
+
+
+        
+        
+        
+        
+        
+        
+        
+        
+            <div id="countdown-tools" class="group-elem">
+                <h3>Countdown</h3>
+
+               <div id="ctl-countdown-dateortime" class="elem elem-25  btn" value='0' value='0'><label for="">Date</label><span
+                        class="material-symbols-outlined">calendar_month</span></div>
+                        
+                        
+                        
+ <div id="ctl-countdown-date" class="elem elem-75"><label for="">to date</label><input  type="datetime-local"
+                       step="1" > <span
+                        class="material-symbols-outlined icon">deployed_code</span></div>
+                        
+                         <div id="ctl-countdown-time" class="elem elem-75"><label for="">Time</label><input  type="time"
+                      step="1" value="00:00:00" style="text-align: left"> <span
+                        class="material-symbols-outlined icon">deployed_code</span></div>
+                        
+                        
+                        <div id="ctl-countdown-master" class="elem elem-25  btn" value='0' value='0'><label for="">master</label><span
+                        class="material-symbols-outlined">network_intelligence_history</span></div>
+                        
+                        
+                         <div id="ctl-countdown-redirect" class="elem elem-75"><label for="">Redirect url</label><input  type="text" > <span
+                        class="material-symbols-outlined icon">deployed_code</span></div>
+
+
+            </div>
+        
+        
+        
+
+        </div>
+
+
+
+
+
+
+        <div id="config-menu" class="menus ">
+            <!--
+            <div class="group-elem-fixed">
+                <h2>Project Menu</h2>
+
+            </div>
+-->
+
+
+<!--
+            <div class="group-elem ">
+                <h3>seguranca</h3>
+
+
+
+                <div id="ctl-only-account" class="elem elem-25 btn"><label for="">Only this account</label><span
+                        class="material-symbols-outlined">
+                        admin_panel_settings
+                    </span></div>
+
+
+                <div id="ctl-change-key" class="elem elem-25  btn" value='0'><label for="">Change lock key</label><span
+                        class="material-symbols-outlined">
+                        key
+                    </span></div>
+
+                <div id='lockakey' class="elem elem-50 "><label for="">Key for lock obj</label><input id="ctl-lock-key"
+                        type="text" value='page' maxlength="6">
+                    <span class="material-symbols-outlined icon">
+                        key
+                    </span>
+                </div>
+
+
+                <div id='locknkey' class="elem elem-50 "><label for="">New key</label><input id="ctl-lock-new-key"
+                        type="text" value='' maxlength="6" placeholder="nova chave">
+                    <span class="material-symbols-outlined icon">
+                        password
+                    </span>
+                </div>
+
+            </div>
+-->
+
+
+            <div class="group-elem ">
+                <h3>Browser theme</h3>
+
+
+                <div id="ctl-browser-color" class="elem elem-25"><label for="">Browser color</label>
+                    <div class="input-color-box"><input id="browser-color" class="color-picker" type="text"
+                            value="#fafafa" opacity></div>
+                </div>
+
+
+            </div>
+
+
+            <div class="group-elem-fixed">
+                <h3>Page description</h3>
+                <div class="elem elem-50 "><label for="">Page name</label><input id="ctl-page-name" type="text"
+                        value='Nova_pagina' maxlength="25"></div>
+                <div class="elem elem-50"><label for="">Page title - max 20</label><input id="ctl-page-title"
+                        type="text" value='' maxlength="25"></div>
+
+
+                <div class="elem-textarea elem textarea-fixed ">
+                    <label for="">Page share text - max 180</label>
+                    <textarea id="ctl-page-description" class="textarea" maxlength="180"></textarea>
+                    <span class="material-symbols-outlined icon">
+                        docs_add_on
+                    </span>
+
+                </div>
+
+                <div class="elem elem-50"><label for="" helper-call='helper-Favico'>Favico</label><input
+                        id="ctl-project-icon" type="text" value='' placeholder="only .ico extension"><span
+                        class="material-symbols-outlined icon">
+                        star_half
+                    </span></div>
+                <div id="project-favicon-preview" class="elem elem-25 elem-preview">
+<label for="" helper-call='helper-Favico'>Favico</label>
+                </div>
+
+
+
+<!--
+                <div class="elem elem-75"><label for="" helper-call='helper-Favico'>Share img</label><input
+                        id="ctl-project-share-img" type="text" value='' placeholder=""><span
+                        class="material-symbols-outlined icon">
+                        star_half
+                    </span></div>
+-->
+                <div id="project-share-img-preview2" class="elem elem-25 elem-preview">
+<label for="" helper-call='helper-Favico'>Share img</label>
+                </div>
+
+
+
+                <!--
+<div  class="elem elem-75"><label for="">share image</label><input id="ctl-project-img" type="text" value=''><span class="material-symbols-outlined icon">
+photo
+</span></div>
+<div id="project-img-preview"  class="elem elem-25" style=" background-size: cover"></div> 
+-->
+
+
+            </div>
+
+
+
+
+
+            <div class="group-elem ">
+                <h3>More</h3>
+
+
+
+                <div id='ctl-back-url' class="elem elem-75 "><label for="">Backlink redirect</label><input type="text"
+                        value=''>
+                    <span class="material-symbols-outlined icon">
+                        amend
+                    </span>
+                </div>
+
+                <div id="ctl-ocultar-busca" class="elem elem-25 btn"><label for="">Search off</label><span
+                        class="material-symbols-outlined">
+                        search_off
+                    </span></div>
+
+            </div>
+
+
+
+
+
+
+
+
+
+
+            <div class="group-elem ">
+                <h3>HEADER</h3>
+
+
+                <div class="elem-textarea elem ">
+                    <textarea id="ctl-page-head" class="textarea"></textarea>
+
+
+                </div>
+
+
+
+
+
+            </div>
+
+            <div class="group-elem ">
+                <h3>BODY</h3>
+
+                <div class="elem-textarea elem">
+
+                    <textarea id='ctl-body-code' class="textarea" fs-codehighlight-element='code'></textarea>
+
+
+                </div>
+
+
+
+
+
+            </div>
+
+
+
+        </div>
+
+
+
+
+
+
+    </div>
+
+
+
+
+    <div id="magic-style" class="pagee-center-block">
+        <div class="pagee-center-block-header">
+            <h2>Magic style</h2>
+            <div class="grupo-line-menu">
+                <div id='' class="elem elem-25  btn"><span class="material-symbols-outlined icon">
+                        contrast
+                    </span></div>
+
+            </div>
+        </div>
+
+
+
+
+
+        <div id="magic-style-dark" class="magic-style-content">
+            <div class="magic-style-item">
+
+                <img src="img/videobg.png" alt="">
+
+            </div>
+
+            <div class="magic-style-item">
+
+                <img src="img/videobg.png" alt="">
+
+            </div>
+
+            <div class="magic-style-item">
+
+                <img src="img/videobg.png" alt="">
+
+            </div>
+
+
+        </div>
+        <!--
+    <div id="magic-style-light" class="magic-style-content">
+        
+        
+        
+           <div class="magic-style-item">
+            
+              <img src="img/videobg.png" alt="">
+            
+        </div>
+    </div>
+-->
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div id="project-pages" class=" pagee-center-block">
+
+
+        <div class="pagee-center-block-header">
+            <h2>Project</h2>
+
+            <div class="pagee-center-block-header-right">
+                <div id='project-pages-close' class="elem elem-25 btn-fixed pagee-center-block-close">
+                    <label for="">Close</label>
+                    <span class="material-symbols-outlined icon">
+                        close
+                    </span>
+
+                </div>
+            </div>
+
+
+
+
+        </div>
+        <div class="pagee-center-block-content pagee-center-block-content-50">
+            <div class="pagee-center-block-content-sub">
+                <div class="pagee-center-block-content-sub-header">
+                    <h3>Pages</h3>
+                    <div id='templates-library-btn-import' class="elem elem-25 btn-fixed pagee-center-block-close">
+                        <label for="">Import Page</label>
+                        <span class="material-symbols-outlined icon">
+                           system_update_alt
+                        </span>
+
+                    </div>
+                     <div id='templates-library-btn' class="elem elem-25 btn-fixed pagee-center-block-close">
+                        <label for="">Add Page</label>
+                        <span class="material-symbols-outlined icon">
+                            note_add
+                        </span>
+
+                    </div>
+                </div>
+
+                <ul class="project-pages-list">
+
+                 
+            
+                 
+                 
+<!--
+             <li><span>Nomedapagina</span>
+
+                        
+                        
+                         <div id='' class="elem elem-25 btn-fixed project-pages-list-icon">
+                            <label for="">export</label>
+                            <span class="material-symbols-outlined icon">
+                                share_windows
+                            </span>
+
+                        </div>
+
+                        <div id='' class="elem elem-25 btn-fixed project-pages-list-icon">
+                            <label for="">edite</label>
+                            <span class="material-symbols-outlined icon">
+                                design_services
+                            </span>
+
+                        </div>
+                        
+                         <div id='' class="elem elem-25 btn-fixed project-pages-list-icon">
+                            <label for="">Duplicate</label>
+                            <span class="material-symbols-outlined icon">
+                                 control_point_duplicate
+                            </span>
+
+                        </div>
+
+                        <div id='' class="elem elem-25 btn-fixed project-pages-list-icon">
+                            <label for="">delete</label>
+                            <span class="material-symbols-outlined icon">
+                                delete
+                            </span>
+
+                        </div>
+
+                    </li>
+-->
+                    
+                
+
+                </ul>
+            </div>
+
+
+            <div class="pagee-center-block-content-sub">
+                <h3>Project configurations</h3>
+                
+                <div class="pagee-center-block-elem-group">
+                <h4>security</h4>	
+                	     
+
+
+               
+
+               
+					<div class="subgroup-elem">
+						
+						 <div id='lockakey' class="elem elem-50 "><label for="">Key for lock obj</label><input id="ctl-lock-key"
+                        type="text" value='page' maxlength="6">
+                    <span class="material-symbols-outlined icon">
+                        key
+                    </span>
+                    
+                   
+                </div>
+                 <div id='locknkey' class="elem elem-50 "><label for="">New key</label><input id="ctl-lock-new-key"
+                        type="text" value='' maxlength="6" placeholder="nova chave">
+                    <span class="material-symbols-outlined icon">
+                        password
+                    </span>
+                </div>
+                
+                 
+						
+						
+						 <div class="subelem"> <div id="ctl-change-key" class="elem elem-25  btn" value='0'><span
+                        class="material-symbols-outlined icon">
+                       cached
+                    </span></div></div>
+					</div>
+
+
+              
+                       
+                       
+                         <div id="ctl-only-account" class="elem elem-25 btn"><label for="">Only this accounts</label><span
+                        class="material-symbols-outlined icon">
+                        admin_panel_settings
+                    </span></div>
+                       
+                       
+                       
+                       
+                       
+                       
+                        <div class="elem-textarea elem textarea-fixed ">
+                    <label for="">Accounts that can open this project</label>
+                    <textarea id="ctl-page-domains" class="textarea" maxlength="180" placeholder="account,account2,account3"></textarea>
+                    <span class="material-symbols-outlined icon">
+                        docs_add_on
+                    </span>
+
+                </div>
+                       
+                       
+                    <div class="elem-textarea elem textarea-fixed ">
+                    <label for="">Domains that can run this site</label>
+                    <textarea id="ctl-page-domains" class="textarea" maxlength="180"></textarea>
+                    <span class="material-symbols-outlined icon">
+                        docs_add_on
+                    </span>
+
+                </div>
+                      
+                      
+                      
+                      
+                      
+                      
+                      
+                      
+                       
+                        
+                </div>
+            </div>
+
+
+
+
+        </div>
+
+
+
+
+
+    </div>
+
+
+
+    <div id="magic-style" class=" pagee-center-block">
+
+
+        <div class="pagee-center-block-header">
+            <h2>Magic Style</h2>
+
+            <div class="pagee-center-block-header-right">
+
+
+
+
+                <div id='magic-style-close' class="elem elem-25 btn-fixed pagee-center-block-close">
+                    <label for="">Close</label>
+                    <span class="material-symbols-outlined icon">
+                        close
+                    </span>
+
+                </div>
+            </div>
+
+
+
+
+        </div>
+        <div class="pagee-center-block-content">
+            <div class="magic-style-list">
+<div class="magic-style-list-group" data-title="Prices">
+	
+	    <div class="magic-style-item">
+                    <img src="magicstyle/section/section-prices/section-prices1.png" alt="">
+                </div>
+                
+                 <div class="magic-style-item">
+                    <img src="magicstyle/section/section-prices/section-prices2.png" alt="">
+                </div>
+                
+                 <div class="magic-style-item">
+                    <img src="magicstyle/section/section-prices/section-prices3.png" alt="">
+                </div>
+                
+                 <div class="magic-style-item">
+                    <img src="magicstyle/section/section-prices/section-prices4.png" alt="">
+                </div>
+                 <div class="magic-style-item">
+                    <img src="magicstyle/section/section-prices/section-prices4.png" alt="">
+                </div>
+                 <div class="magic-style-item">
+                    <img src="magicstyle/section/section-prices/section-prices4.png" alt="">
+                </div>
+                 <div class="magic-style-item">
+                    <img src="magicstyle/section/section-prices/section-prices4.png" alt="">
+                </div>
+                 <div class="magic-style-item">
+                    <img src="magicstyle/section/prices/section-prices4.png" alt="">
+                </div>
+</div>
+           
+           <div class="magic-style-list-group" data-title="Prices">
+	
+	    <div class="magic-style-item">
+                    <img src="magicstyle/section/section-prices/section-prices1.png" alt="">
+                </div>
+                
+                 <div class="magic-style-item">
+                    <img src="magicstyle/section/section-prices/section-prices2.png" alt="">
+                </div>
+                
+                 <div class="magic-style-item">
+                    <img src="magicstyle/section/section-prices/section-prices3.png" alt="">
+                </div>
+                
+                 <div class="magic-style-item">
+                    <img src="magicstyle/section/section-prices/section-prices4.png" alt="">
+                </div>
+                 <div class="magic-style-item">
+                    <img src="magicstyle/section/section-prices/section-prices4.png" alt="">
+                </div>
+                 <div class="magic-style-item">
+                    <img src="magicstyle/section/section-prices/section-prices4.png" alt="">
+                </div>
+              
+</div>
+           
+           <div class="magic-style-list-group" data-title="Prices">
+	
+	    <div class="magic-style-item">
+                    <img src="magicstyle/section/section-prices/section-prices1.png" alt="">
+                </div>
+                
+                 <div class="magic-style-item">
+                    <img src="magicstyle/section/section-prices/section-prices2.png" alt="">
+                </div>
+                
+                 <div class="magic-style-item">
+                    <img src="magicstyle/section/section-prices/section-prices3.png" alt="">
+                </div>
+                
+                 <div class="magic-style-item">
+                    <img src="magicstyle/section/section-prices/section-prices4.png" alt="">
+                </div>
+                 <div class="magic-style-item">
+                    <img src="magicstyle/section/section-prices/section-prices4.png" alt="">
+                </div>
+                
+               
+                
+</div>
+            
+
+            </div>
+        </div>
+
+
+    </div>
+
+
+
+
+    <div id="templates-library" class=" pagee-center-block">
+
+
+        <div class="pagee-center-block-header">
+            <h2>Themas</h2>
+
+            <div class="pagee-center-block-header-right">
+
+
+
+
+                <div id='templates-library-close' class="elem elem-25 btn-fixed pagee-center-block-close">
+                    <label for="">Close</label>
+                    <span class="material-symbols-outlined icon">
+                        close
+                    </span>
+
+                </div>
+            </div>
+
+
+
+
+        </div>
+        <div class="pagee-center-block-content">
+            <div class="templates-list"> </div>
+        </div>
+
+
+    </div>
+
+
+
+
+    <div id="project-images" class="pagee-center-block ">
+        <div class="pagee-center-block-header">
+            <h2>Images folder</h2>
+
+            <div class="pagee-center-block-header-right">
+
+
+              
+              <div id='upload_imgs_folder' class="elem elem-25  btn-fixed">
+                    <label for="" helper-call='helper-section1'>Add stock img</label>
+                    <span class="material-symbols-outlined icon">
+                       add_photo_alternate
+                    </span>
+
+                </div>
+               
+                   <div id='add-pagee-images-pexel' class="elem elem-25  btn-fixed">
+                    <label for="" helper-call='helper-section1'>Add stock img</label>
+                    <span class="material-symbols-outlined icon">
+                       photo_prints
+                    </span>
+
+                </div>
+                
+                
+                
+                
+<!--
+                <div id='add-pagee-images' class="elem elem-25  btn-fixed">
+                    <label for="" helper-call='helper-section1'>Add pc img</label>
+                    <span class="material-symbols-outlined icon">
+                        add_photo_alternate
+                    </span>
+
+                </div>
+-->
+                <div id='pagee-images-remove-bg' class="elem elem-50  btn">
+                    <label for="" helper-call='helper-section1'>remove bg</label>
+                    Remove bg image
+                </div>
+
+
+
+
+                <div id='pagee-folder-images-close' class="elem elem-25 btn-fixed pagee-center-block-close">
+                    <label for="">Close</label>
+                    <span class="material-symbols-outlined icon">
+                        close
+                    </span>
+
+                </div>
+            </div>
+
+
+
+
+        </div>
+        <div class="pagee-center-block-content">
+            <div id="images-folder-list" class="images-folder-list">
+
+            </div>
+        </div>
+
+
+    </div>
+
+
+
+
+
+
+ <div id="project-images-pexel" class="pagee-center-block ">
+         <div class="pagee-center-block-header">
+           
+           <div class="pagee-center-block-header-left">
+            <h2>Pexel</h2>
+            </div>
+            
+              <div class="pagee-center-block-header-center">
+            
+            <div class="pexelh">
+                  <form>
+            <input type="text" name="srch" id="pexel-srch"
+            required placeholder="Enter your search">
+<!--            <button id='' type="submit">Search</button>-->
+            
+            <div id='pexel-srch-btn'  class="elem elem-25 btn-fixed "  >
+                    <label for="">Buscar</label>
+                    <span class="material-symbols-outlined icon">
+                        search
+                    </span>
+
+                </div>
+        </form>
+
+        <div class="row pexel-pages">
+            <div class="prev elem elem-25 btn-fixed"> &lt; </div>
+            <div class="pexel-page elem elem-25 btn-fixed"> <label for="">page</label> 1 </div>
+            <div class="next elem elem-25 btn-fixed"> &gt; </div>
+        </div>
+
+        <div>
+
+        </div>
+            </div>
+</div>
+            <div class="pagee-center-block-header-right">
+
+
+            
+                <div id='pagee-images-remove-bg' class="elem elem-50  btn">
+                    <label for="" helper-call='helper-section1'>remove bg</label>
+                    Remove bg image
+                </div>
+
+
+
+
+                <div id='pagee-folder-images-pexel-close' class="elem elem-25 btn-fixed pagee-center-block-close">
+                    <label for="">Close</label>
+                    <span class="material-symbols-outlined icon">
+                        close
+                    </span>
+
+                </div>
+            </div>
+
+
+
+
+        </div>
+     <div class="pagee-center-block-content">
+           
+           <p class="pexeltext">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo labore a officia voluptate. Explicabo, ut. Dolore, facilis, ullam. Asperiores dolores distinctio, laboriosam sint quaerat modi sunt aperiam! Corporis quae asperiores aperiam, alias autem, fuga odio temporibus inventore est in voluptatibus voluptates, ipsum cupiditate quisquam reprehenderit nam minima aliquid. Fugiat, temporibus.</p>
+            <div id="pexel">
+              
+            </div>
+        </div>
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="page-center">
+        <!--		<div id="body-select">Body</div>-->
+        <div class="page-site-window">
+
+       <div id="controlbar">      <div id="body-select">Body</div><div id="ctl-ab-active">Test <span class="sp-a">A</span>/<span class="sp-b">B</span></div><div id="heat-map">Heat map</div></div>
+            <div class="controlbar-bg"></div>
+            <div class="modal-list-menu">
+
+
+            </div>
+            <div class="page-site-scroll">
+                <div id="body" class="vslpagee" type='body' page-name='1' lock='page' pagee-account='2' back-url=''>
+                    <main>
+
+
+
+                        <a id="bypagee"></a>
+                    </main>
+                    <div class="body-code"></div>
+                </div>
+
+
+            </div>
+
+        </div>
+    </div>
+
+
+<div class="pagee-alert">
+	<div id="alert-notdel" class="alert-item">
+		<h3>Delete desativado</h3>
+		<p>Existe um ou mais elementos bloqueados dentro do elemento selecionado.</p>
+	</div>
+	
+</div>
+
+
+
+
+    <div class="pagee-helper">
+        <div id="helper-section1" class="help-item">
+            <h3>Nome da ferramenta</h3>
+            <p>Atalho <b>ALT + D</b></p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat eveniet sapiente voluptate, voluptates
+                nemo excepturi laborum sunt libero consectetur porro quod ipsum vitae molestiae, voluptatum nam
+                voluptatem iste voluptas aut dolores, ipsa aliquam nostrum magni cupiditate vero? Soluta quos modi
+                voluptas dolore neque ipsa quod, impedit sit illo reiciendis necessitatibus.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat eveniet sapiente voluptate, voluptates
+                nemo excepturi laborum sunt libero consectetur porro quod ipsum vitae molestiae, voluptatum nam
+                voluptatem iste voluptas aut dolores, ipsa aliquam nostrum magni cupiditate vero? Soluta quos modi
+                voluptas dolore neque ipsa quod, impedit sit illo reiciendis necessitatibus.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat eveniet sapiente voluptate, voluptates
+                nemo excepturi laborum sunt libero consectetur porro quod ipsum vitae molestiae, voluptatum nam
+                voluptatem iste voluptas aut dolores, ipsa aliquam nostrum magni cupiditate vero? Soluta quos modi
+                voluptas dolore neque ipsa quod, impedit sit illo reiciendis necessitatibus.</p>
+            <img src="/img/videobg.png" alt="">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat eveniet sapiente voluptate, voluptates
+                nemo excepturi laborum sunt libero consectetur porro quod ipsum vitae molestiae, voluptatum nam
+                voluptatem iste voluptas aut dolores, ipsa aliquam nostrum magni cupiditate vero? Soluta quos modi
+                voluptas dolore neque ipsa quod, impedit sit illo reiciendis necessitatibus.</p>
+
+        </div>
+        
+        
+            <div id="helper-margin" class="help-item">
+            <h3>Margin</h3>
+           <h4>Para margens 'auto' ou 'smart'</h4>
+           <p>Click na margem que deseja alterar e delete o valor dentro do campo</p>
+         
+         <h4>Smart margin</h4>
+         <p>No modo SMART o Pagee irá definir automaticamente a melhor margem para o elemento, se adaptando se necessario entre dispositivos móveis e desktop. Este modo só posível nas margens superiores e inferiores. </p>
+         
+          <h4>Auto margin</h4>
+         <p>Quando ambas as margens laterais estão definidas como 'auto' o elemento ficará centralizado.</p>
+        
+
+        </div>
+
+
+        <div id="helper-Favico" class="help-item">
+            <h3>Favico</h3>
+            <!--   <p>Atalho  <b>ALT + D</b></p>-->
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat eveniet sapiente voluptate, voluptates
+                nemo excepturi laborum sunt libero consectetur porro quod ipsum vitae molestiae, voluptatum nam
+                voluptatem iste voluptas aut dolores, ipsa aliquam nostrum magni cupiditate vero? Soluta quos modi
+                voluptas dolore neque ipsa quod, impedit sit illo reiciendis necessitatibus.</p>
+
+
+        </div>
+
+
+        <div id="helper-folder-image-host" class="help-item">
+            <h3>Pasta de imagens do seu host</h3>
+            <!--   <p>Atalho  <b>ALT + D</b></p>-->
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat eveniet sapiente voluptate, voluptates
+                nemo excepturi laborum sunt libero consectetur porro quod ipsum vitae molestiae, voluptatum nam
+                voluptatem iste voluptas aut dolores, ipsa aliquam nostrum magni cupiditate vero? Soluta quos modi
+                voluptas dolore neque ipsa quod, impedit sit illo reiciendis necessitatibus.</p>
+
+
+        </div>
+
+
+        <div id="helper-element-name" class="help-item">
+            <h3>ID do elemento</h3>
+            <!--   <p>Atalho  <b>ALT + D</b></p>-->
+            <p>Lorem #ID</p>
+
+
+        </div>
+
+
+        <div id="helper-text-flow" class="help-item">
+            <h3>Text flow</h3>
+            <p>Quando acionado o elemento acompanha o fluxo do texto</p>
+
+        </div>
+
+        <div id="helper-mobile-off" class="help-item">
+            <h3>Mobile Off</h3>
+            <p>Quando acionado o elemento fica oculto em dispositivos móveis</p>
+
+        </div>
+
+        <div id="helper-desktop-off" class="help-item">
+            <h3>desktop Off</h3>
+            <p>Quando acionado o elemento fica oculto em dispositivos desktop</p>
+
+        </div>
+
+        <div id="helper-float" class="help-item">
+            <h3>Float</h3>
+            <p>Quando acionado o elemento ficará grudado no topo da tela quando a rolagem for ativada. </p>
+            <p>Esta função pode ser usada em apenas um elemento. O ponto verde na parte superior direita do botão indica
+                que a função já foi utilisada.</p>
+            <p>Caso clique no botão a função será transferida automaticamente para o elemento selecionado. </p>
+
+        </div>
+
+        <div id="helper-open-delay" class="help-item">
+            <h3>Open delay</h3>
+            <p>Determina o tempo que o elemento levará para aparecer depois que o site for aberto. Para abrir
+                instantaneamente bas configurar como 00:00:00 </p>
+
+
+        </div>
+
+
+
+
+    </div>
+
+
+
+
+
+
+    <div class="pageemodal ">
+        <div>
+            <h2>safsf</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit placeat cum, adipisci sit architecto
+                quasi, voluptatum sint consectetur assumenda. Tempore!</p>
+            <div class="pageemodalbtn btn-cancel hover-darken">Cancelar</div>
+            <div class="pageemodalbtn hover-darken">Confirmar</div>
+        </div>
+    </div>
+    
+    
+        <div id="savetemplateimg" class="pageemodal-bottom act">
+        <div>
+            <h2>Save Template Images</h2>
+            <p>Deseja salvar as imagens de exemplo contidas novo elemento?</p>
+            <div class="pageemodalbtn btn-cancel hover-darken">Cancelar</div>
+            <div id='savetemplateimgbtn' class="pageemodalbtn hover-darken">Salvar</div>
+        </div>
+    </div>
+    
+
+   
+   
+   <div class="pagee-notification">
+      <h2>Salvo!</h2>
+
+   </div>
+   
+   
+    <input id="upfile" type="file">
+    <input class="show-for-sr" type="file" id="upload_imgs" name="upload_imgs[]" multiple/>
+    
+    
+<div class="estrutura">
+ <div class="estrutura-scroll">
+   <div class="estrutura-int"></div>
+ </div> 
+  
+  
+</div>
+    
+    
+     
+    <div id="front-pagee">
+        <div class="pagee-front-content-center">
+    <img src="img/f6.jpg" alt="" class="pagee-front-user-photo">
+    <div class="pagee-front-user-name">Ana Moura</div>
+<div class="pagee-front-group">
+<!--    <a class="pagee-front-btn pagee-front-btn-l">Open project </a>-->
+        <div id='iniciar-projeto' class="pagee-front-btn pagee-front-btn-r" >Project</div>
+</div>    
+    <div class="pagee-front-logout">Logout</div>
+    
+</div>
+        <div class="pagee-front-content-right"></div>
+
+    </div>   
+
+<!--    <script src="js/vendor/jquery-3.6.1.js"></script>-->
+   
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+    <script src="js/vendor/jquery-ui.min.js"></script>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/spectrum-colorpicker2/dist/spectrum.min.js"></script>
+
+
+
+
+
+
+    <script src="js/vendor/modernizr-3.11.2.min.js"></script>
+    <script src="js/jquery.mousewheel.min.js"></script>
+        <script src="js/saveload.js"></script>
+      <script src="js/pexel.js"></script>
+         <link rel="stylesheet" href="css/pexel.css">
+    <script src="js/estrutura.js"></script>
+    <script src="js/vslpagee.js"></script>
+
+
+    <script src="js/plugins.js"></script>
+
+    <script src="js/main.js"></script>
+    
+ 
+<script src="magicstyle/magicstyle.js"></script>
+
+<!--
+    <script src="js/listicon.js"></script>
+    <script src="js/listilustration.js"></script>
+-->
+
+
+   <script>$('.pagee-front-content-right').load('front-pagee-right.html');</script>
+
+    <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+    <!--
+  <script>
+    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
+    ga('create', 'UA-XXXXX-Y', 'auto'); ga('set', 'anonymizeIp', true); ga('set', 'transport', 'beacon'); ga('send', 'pageview')
+  </script>
+  <script src="https://www.google-analytics.com/analytics.js" async></script>
+-->
+       
+
+</body>
+
+</html>
